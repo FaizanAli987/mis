@@ -1,8 +1,8 @@
 import React from 'react'
-import Footer from './../../components/main/Footer';
 import Header from './../../components/main/Header';
+import Footer from './../../components/main/Footer';
 
-const index = () => {
+const healthserv = () => {
   return (
     <>
     <Header />
@@ -11,4 +11,4 @@ const index = () => {
   )
 }
 
-export default index
+export default healthserv

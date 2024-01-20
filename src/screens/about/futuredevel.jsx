@@ -1,14 +1,15 @@
 import React from 'react'
-import Footer from './../../components/main/Footer';
 import Header from './../../components/main/Header';
+import Footer from './../../components/main/Footer';
 
-const index = () => {
+const futuredevel = () => {
   return (
     <>
     <Header />
+    
     <Footer />
     </>
   )
 }
 
-export default index
+export default futuredevel

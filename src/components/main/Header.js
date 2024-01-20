@@ -3,9 +3,9 @@ import React from 'react'
 function Header() {
   return (
     <nav>
-    <div class="top">
-      <div class="container">
-        <div class="content">
+    <div className="top">
+      <div className="container">
+        <div className="content">
           <ul>
             <li>
               <a href="careers.html" target="">
@@ -29,17 +29,17 @@ function Header() {
             </li>
             <li>
               <button id="search-button" title="Search">
-                <i class="iconfont icon-search"></i>
+                <i className="iconfont icon-search"></i>
               </button>
             </li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="bottom">
-      <div class="container">
-        <div class="content">
-          <div class="brand logo-c">
+    <div className="bottom">
+      <div className="container">
+        <div className="content">
+          <div className="brand logo-c">
             <h1>
               <a
                 href="index.html"
@@ -52,12 +52,12 @@ function Header() {
               </a>
             </h1>
           </div>
-          <div class="nav">
-            <div class="nav-c">
+          <div className="nav">
+            <div className="nav-c">
               <ul>
-                <li class="has-sub-second">
+                <li className="has-sub-second">
                   <a href="about-us.html">About us</a>
-                  <ul class="sub-menu">
+                  <ul className="sub-menu">
                     <li>
                       <a href="about-us/our-mission.html">Our Mission</a>
                     </li>
@@ -101,12 +101,12 @@ function Header() {
                       </a>
                     </li>
                   </ul>
-                  <i class="iconfont icon-top"></i>
+                  <i className="iconfont icon-top"></i>
                 </li>
 
-                <li class="has-sub-second">
+                <li className="has-sub-second">
                   <a href="admissions.html">Admissions</a>
-                  <ul class="sub-menu">
+                  <ul className="sub-menu">
                     <li>
                       <a href="admissions/application-process.html">
                         Application Process
@@ -124,16 +124,16 @@ function Header() {
                       </a>
                     </li>
                   </ul>
-                  <i class="iconfont icon-top"></i>
+                  <i className="iconfont icon-top"></i>
                 </li>
-                <li class="has-sub-second">
+                <li className="has-sub-second">
                   <a href="our-schools.html">Our schools</a>
-                  <ul class="sub-menu">
-                    <li class="has-sub-third">
+                  <ul className="sub-menu">
+                    <li className="has-sub-third">
                       <a href="our-schools/primary-school.html">
                         Primary School
                       </a>
-                      <ul class="sub-menu">
+                      <ul className="sub-menu">
                         <li>
                           <a href="our-schools/primary-school/early-education.html">
                             IB Primary Years Programme{" "}
@@ -148,11 +148,11 @@ function Header() {
                         </li>
                       </ul>
                     </li>
-                    <li class="has-sub-third">
+                    <li className="has-sub-third">
                       <a href="our-schools/secondary-school.html">
                         Secondary School
                       </a>
-                      <ul class="sub-menu">
+                      <ul className="sub-menu">
                         <li>
                           <a href="our-schools/secondary-school/ib-middle-years-programme.html">
                             IB Middle Years Programme{" "}
@@ -167,11 +167,11 @@ function Header() {
                       </ul>
                     </li>
                   </ul>
-                  <i class="iconfont icon-top"></i>
+                  <i className="iconfont icon-top"></i>
                 </li>
-                <li class="has-sub-second">
+                <li className="has-sub-second">
                   <a href="co-curricular.html">Co-curricular</a>
-                  <ul class="sub-menu">
+                  <ul className="sub-menu">
                     <li>
                       <a href="co-curricular/student-leadership.html">
                         Student Leadership
@@ -183,11 +183,11 @@ function Header() {
                       </a>
                     </li>
                   </ul>
-                  <i class="iconfont icon-top"></i>
+                  <i className="iconfont icon-top"></i>
                 </li>
-                <li class="has-sub-second">
+                <li className="has-sub-second">
                   <a href="student-support.html">Student Support</a>
-                  <ul class="sub-menu">
+                  <ul className="sub-menu">
                     <li>
                       <a href="student-support/learning-support.html">
                         Learning Support
@@ -209,7 +209,7 @@ function Header() {
                       </a>
                     </li>
                   </ul>
-                  <i class="iconfont icon-top"></i>
+                  <i className="iconfont icon-top"></i>
                 </li>
                 <li>
                   <a href="news-events.html">News &amp; Events</a>
@@ -218,7 +218,7 @@ function Header() {
                   <a href="calendar.html">Calendar</a>
                 </li>
               </ul>
-              <div class="top">
+              <div className="top">
                 <ul>
                   <li>
                     <a href="careers.html" target="">
@@ -247,11 +247,11 @@ function Header() {
               </div>
             </div>
           </div>
-          <div class="burger-search">
+          <div className="burger-search">
             <button id="search-button" title="Search">
-              <i class="iconfont icon-search"></i>
+              <i className="iconfont icon-search"></i>
             </button>
-            <div class="navbar-burger burger" title="menu">
+            <div className="navbar-burger burger" title="menu">
               <span></span>
               <span></span>
               <span></span>

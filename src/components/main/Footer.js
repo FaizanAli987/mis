@@ -2,34 +2,34 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer class="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="content">
+    <footer className="footer">
+    <div className="footer-top">
+      <div className="container">
+        <div className="content">
           <div id="back" title="Back to Top">
-            <i class="icon-arrow"></i>
+            <i className="icon-arrow"></i>
           </div>
-          <a href="https://ibo.org/" target="_blank" class="brand">
+          <a href="https://ibo.org/" target="_blank" className="brand">
             <span style={{ backgroundImage: "url(img/logo-1.png)" }}></span>
           </a>
-          <div class="img-c">
+          <div className="img-c">
             <div style={{ backgroundImage: "url(img/logo-1.svg)" }}>
               <a href="index.html"></a>
             </div>
           </div>
-          <div class="text1">
+          <div className="text1">
             <p>BBIS Berlin Brandenburg International School</p>
             <p>
               Genehmigte Ersatz- und Ganztagsschule Klasse 1–10, Anerkannte
               Ergänzungsschule Klasse 11–12
             </p>
           </div>
-          <div class="text2">
+          <div className="text2">
             <p>BBIS Berlin Brandenburg International School GmbH</p>
-            <div class="info">
+            <div className="info">
               <p>
                 <a href="contact-us.html" target="_blank">
-                  <i class="icon-location"></i>
+                  <i className="icon-location"></i>
                   <span>
                     Schopfheimer Allee 10, 14532 Kleinmachnow, Germany
                   </span>
@@ -40,54 +40,54 @@ function Footer() {
                   href="tel:+49 (0)33 203  80 36-0&ZeroWidthSpace;"
                   target="_blank"
                 >
-                  <i class="icon-tel"></i>
+                  <i className="icon-tel"></i>
                   <span>+49 (0)33 203 80 36-0&ZeroWidthSpace;</span>
                 </a>
               </p>
               <p>
                 <a href="mailto:office@bbis.de" target="_blank">
-                  <i class="icon-mail"></i>
+                  <i className="icon-mail"></i>
                   <span>office@bbis.de</span>
                 </a>
               </p>
             </div>
           </div>
-          <div class="show-privacy-settings">Privacy Settings</div>
+          <div className="show-privacy-settings">Privacy Settings</div>
 
-          <ul class="social-links">
+          <ul className="social-links">
             <li>
               <a
                 href="https://www.facebook.com/BBISofficial"
                 target="_blank"
-                class="icon-facebook"
+                className="icon-facebook"
               ></a>
             </li>
             <li>
               <a
                 href="https://www.instagram.com/bbis_official/"
                 target="_blank"
-                class="icon-instagram"
+                className="icon-instagram"
               ></a>
             </li>
             <li>
               <a
                 href="https://twitter.com/BBISofficial"
                 target="_blank"
-                class="icon-twitter"
+                className="icon-twitter"
               ></a>
             </li>
             <li>
               <a
                 href="https://www.linkedin.com/company/bbis-berlin-brandenburg-international-school"
                 target="_blank"
-                class="icon-linkedin"
+                className="icon-linkedin"
               ></a>
             </li>
             <li>
               <a
                 href="https://www.youtube.com/channel/UCJQxGRWSuVtLbK6cU_LAs4Q"
                 target="_blank"
-                class="icon-youtube"
+                className="icon-youtube"
               ></a>
             </li>
           </ul>
@@ -95,13 +95,13 @@ function Footer() {
       </div>
     </div>
 
-    <div class="search-inner" id="search-box" style={{ display: "none" }}>
-      <a href="#" id="search-close" class="icon-close"></a>
-      <div class="search-box-inner">
+    <div className="search-inner" id="search-box" style={{ display: "none" }}>
+      <a href="#" id="search-close" className="icon-close"></a>
+      <div className="search-box-inner">
         <form action="https://www.bbis.de/search">
           <input
             type="text"
-            class="input"
+            className="input"
             name="q"
             value=""
             placeholder="Search our website"
@@ -113,7 +113,7 @@ function Footer() {
         </p>
       </div>
     </div>
-    <aside class="slider-bar" id="slider-bar">
+    <aside className="slider-bar" id="slider-bar">
       <ul>
         <li>
           <a href="contact-us.html" target="">

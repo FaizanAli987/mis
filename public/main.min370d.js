@@ -11310,9 +11310,9 @@
         arrows: !0,
         asNavFor: null,
         prevArrow:
-          '<button class="slick-prev" aria-label="Previous" type="button">Previous</button>',
+          '<button className="slick-prev" aria-label="Previous" type="button">Previous</button>',
         nextArrow:
-          '<button class="slick-next" aria-label="Next" type="button">Next</button>',
+          '<button className="slick-next" aria-label="Next" type="button">Next</button>',
         autoplay: !1,
         autoplaySpeed: 3e3,
         centerMode: !1,
@@ -11631,9 +11631,9 @@
         e.$slider.addClass("slick-slider"),
         (e.$slideTrack =
           0 === e.slideCount
-            ? i('<div class="slick-track"/>').appendTo(e.$slider)
-            : e.$slides.wrapAll('<div class="slick-track"/>').parent()),
-        (e.$list = e.$slideTrack.wrap('<div class="slick-list"/>').parent()),
+            ? i('<div className="slick-track"/>').appendTo(e.$slider)
+            : e.$slides.wrapAll('<div className="slick-track"/>').parent()),
+        (e.$list = e.$slideTrack.wrap('<div className="slick-list"/>').parent()),
         e.$slideTrack.css("opacity", 0),
         (!0 !== e.options.centerMode && !0 !== e.options.swipeToSlide) ||
           (e.options.slidesToScroll = 1),
@@ -13279,7 +13279,7 @@
             "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"),
           (o = function (t, i, n) {
             return (
-              '<div class="slick-lightbox-slick-item">\n  <div class="slick-lightbox-slick-item-inner">\n    <img class="slick-lightbox-slick-img" ' +
+              '<div className="slick-lightbox-slick-item">\n  <div className="slick-lightbox-slick-item-inner">\n    <img className="slick-lightbox-slick-img" ' +
               (!0 === n
                 ? ' data-lazy="' + t + '" src="' + e + '" '
                 : ' src="' + t + '" ') +
@@ -13321,11 +13321,11 @@
         return (
           (n = this.createModalItems()),
           (i =
-            '<div class="slick-lightbox slick-lightbox-hide-init' +
+            '<div className="slick-lightbox slick-lightbox-hide-init' +
             (this.isIE ? " slick-lightbox-ie" : "") +
             '" style="background: ' +
             this.options.background +
-            ';">\n  <div class="slick-lightbox-inner">\n    <div class="slick-lightbox-slick slick-caption-' +
+            ';">\n  <div className="slick-lightbox-inner">\n    <div className="slick-lightbox-slick slick-caption-' +
             this.options.captionPosition +
             '">' +
             n.join("") +
@@ -13495,7 +13495,7 @@
       }),
       (i.prototype.getElementCaption = function (i, n) {
         return this.options.caption
-          ? '<span class="slick-lightbox-slick-caption">' +
+          ? '<span className="slick-lightbox-slick-caption">' +
               function () {
                 switch (typeof this.options.caption) {
                   case "function":
@@ -13613,7 +13613,7 @@
       useHistoryApi: !1,
       layouts: {
         closeButton:
-          '<button type="button" class="slick-lightbox-close"></button>',
+          '<button type="button" className="slick-lightbox-close"></button>',
       },
       shouldOpen: null,
       imageMaxHeight: 0.9,
@@ -23771,7 +23771,7 @@ Embodies a div that has potential scrollbars
               this.applyOverflow();
             };
             Scroller.prototype.renderEl = function () {
-              return (this.scrollEl = $('<div class="fc-scroller"></div>'));
+              return (this.scrollEl = $('<div className="fc-scroller"></div>'));
             };
             // sets to natural height, unlocks overflow
             Scroller.prototype.clear = function () {
@@ -27721,10 +27721,10 @@ Prerequisite: the object being mixed into needs to be a *Grid*
               var theme = this.view.calendar.theme;
               return (
                 "" +
-                '<div class="fc-row ' +
+                '<div className="fc-row ' +
                 theme.getClass("headerRow") +
                 '">' +
-                '<table class="' +
+                '<table className="' +
                 theme.getClass("tableGrid") +
                 '">' +
                 "<thead>" +
@@ -27792,7 +27792,7 @@ Prerequisite: the object being mixed into needs to be a *Grid*
               }
               return (
                 "" +
-                '<th class="' +
+                '<th className="' +
                 classNames.join(" ") +
                 '"' +
                 ((isDateValid && t.rowCnt) === 1
@@ -27851,7 +27851,7 @@ Prerequisite: the object being mixed into needs to be a *Grid*
                 view.calendar.theme.getClass("widgetContent")
               );
               return (
-                '<td class="' +
+                '<td className="' +
                 classes.join(" ") +
                 '"' +
                 (isDateValid
@@ -28031,7 +28031,7 @@ Prerequisite: the object being mixed into needs to be a *Grid*
               return (
                 "<" +
                 this.fillSegTag +
-                (classes.length ? ' class="' + classes.join(" ") + '"' : "") +
+                (classes.length ? ' className="' + classes.join(" ") + '"' : "") +
                 (css ? ' style="' + css + '"' : "") +
                 "></" +
                 this.fillSegTag +
@@ -28383,17 +28383,17 @@ Prerequisite: the object being mixed into needs to be a *Grid*
               }
               return (
                 "" +
-                '<div class="' +
+                '<div className="' +
                 classes.join(" ") +
                 '">' +
-                '<div class="fc-bg">' +
-                '<table class="' +
+                '<div className="fc-bg">' +
+                '<table className="' +
                 theme.getClass("tableGrid") +
                 '">' +
                 this.renderBgTrHtml(row) +
                 "</table>" +
                 "</div>" +
-                '<div class="fc-content-skeleton">' +
+                '<div className="fc-content-skeleton">' +
                 "<table>" +
                 (this.getIsNumbersVisible()
                   ? "<thead>" + this.renderNumberTrHtml(row) + "</thead>"
@@ -28466,7 +28466,7 @@ Prerequisite: the object being mixed into needs to be a *Grid*
                 }
               }
               html +=
-                '<td class="' +
+                '<td className="' +
                 classes.join(" ") +
                 '"' +
                 (isDateValid ? ' data-date="' + date.format() + '"' : "") +
@@ -28726,7 +28726,7 @@ Prerequisite: the object being mixed into needs to be a *Grid*
                     segMoreNodes = [];
                     // make a replacement <td> for each column the segment occupies. will be one for each colspan
                     for (j = 0; j < colSegsBelow.length; j++) {
-                      moreTd = $('<td class="fc-more-cell">').attr(
+                      moreTd = $('<td className="fc-more-cell">').attr(
                         "rowspan",
                         rowspan
                       );
@@ -28768,7 +28768,7 @@ Prerequisite: the object being mixed into needs to be a *Grid*
             DayGrid.prototype.renderMoreLink = function (row, col, hiddenSegs) {
               var _this = this;
               var view = this.view;
-              return $('<a class="fc-more">')
+              return $('<a className="fc-more">')
                 .text(this.getMoreLinkText(hiddenSegs.length))
                 .on("click", function (ev) {
                   var clickOption = _this.opt("eventLimitClick");
@@ -28870,21 +28870,21 @@ Prerequisite: the object being mixed into needs to be a *Grid*
                 this.opt("dayPopoverFormat")
               );
               var content = $(
-                '<div class="fc-header ' +
+                '<div className="fc-header ' +
                   theme.getClass("popoverHeader") +
                   '">' +
-                  '<span class="fc-close ' +
+                  '<span className="fc-close ' +
                   theme.getIconClass("close") +
                   '"></span>' +
-                  '<span class="fc-title">' +
+                  '<span className="fc-title">' +
                   util_1.htmlEscape(title) +
                   "</span>" +
-                  '<div class="fc-clear"></div>' +
+                  '<div className="fc-clear"></div>' +
                   "</div>" +
-                  '<div class="fc-body ' +
+                  '<div className="fc-body ' +
                   theme.getClass("popoverContent") +
                   '">' +
-                  '<div class="fc-event-container"></div>' +
+                  '<div className="fc-event-container"></div>' +
                   "</div>"
               );
               var segContainer = content.find(".fc-event-container");
@@ -29035,7 +29035,7 @@ Prerequisite: the object being mixed into needs to be a *Grid*
               dayGridContainerEl = this.scroller.el.addClass(
                 "fc-day-grid-container"
               );
-              dayGridEl = $('<div class="fc-day-grid">').appendTo(
+              dayGridEl = $('<div className="fc-day-grid">').appendTo(
                 dayGridContainerEl
               );
               this.el.find(".fc-body > tr > td").append(dayGridContainerEl);
@@ -29052,21 +29052,21 @@ Prerequisite: the object being mixed into needs to be a *Grid*
               var theme = this.calendar.theme;
               return (
                 "" +
-                '<table class="' +
+                '<table className="' +
                 theme.getClass("tableGrid") +
                 '">' +
                 (this.opt("columnHeader")
-                  ? '<thead class="fc-head">' +
+                  ? '<thead className="fc-head">' +
                     "<tr>" +
-                    '<td class="fc-head-container ' +
+                    '<td className="fc-head-container ' +
                     theme.getClass("widgetHeader") +
                     '">&nbsp;</td>' +
                     "</tr>" +
                     "</thead>"
                   : "") +
-                '<tbody class="fc-body">' +
+                '<tbody className="fc-body">' +
                 "<tr>" +
-                '<td class="' +
+                '<td className="' +
                 theme.getClass("widgetContent") +
                 '"></td>' +
                 "</tr>" +
@@ -29201,7 +29201,7 @@ Prerequisite: the object being mixed into needs to be a *Grid*
                 if (this.colWeekNumbersVisible) {
                   return (
                     "" +
-                    '<th class="fc-week-number ' +
+                    '<th className="fc-week-number ' +
                     view.calendar.theme.getClass("widgetHeader") +
                     '" ' +
                     view.weekNumberStyleAttr() +
@@ -29221,7 +29221,7 @@ Prerequisite: the object being mixed into needs to be a *Grid*
                 if (this.colWeekNumbersVisible) {
                   return (
                     "" +
-                    '<td class="fc-week-number" ' +
+                    '<td className="fc-week-number" ' +
                     view.weekNumberStyleAttr() +
                     ">" +
                     view.buildGotoAnchorHtml(
@@ -29243,7 +29243,7 @@ Prerequisite: the object being mixed into needs to be a *Grid*
                 var view = this.view;
                 if (this.colWeekNumbersVisible) {
                   return (
-                    '<td class="fc-week-number ' +
+                    '<td className="fc-week-number ' +
                     view.calendar.theme.getClass("widgetContent") +
                     '" ' +
                     view.weekNumberStyleAttr() +
@@ -29258,7 +29258,7 @@ Prerequisite: the object being mixed into needs to be a *Grid*
                 var view = this.view;
                 if (this.colWeekNumbersVisible) {
                   return (
-                    '<td class="fc-week-number" ' +
+                    '<td className="fc-week-number" ' +
                     view.weekNumberStyleAttr() +
                     "></td>"
                   );
@@ -31055,7 +31055,7 @@ Options:
             Popover.prototype.render = function () {
               var _this = this;
               var options = this.options;
-              this.el = $('<div class="fc-popover">')
+              this.el = $('<div className="fc-popover">')
                 .addClass(options.className || "")
                 .css({
                   // position initially to the top left to avoid creating scrollbars
@@ -32363,7 +32363,7 @@ Options:
                   el.toggleClass("fc-rtl", opts.isRTL);
                 }
               );
-              this.contentEl = $("<div class='fc-view-container'>").prependTo(
+              this.contentEl = $("<div className='fc-view-container'>").prependTo(
                 el
               );
               this.initToolbars();
@@ -32446,7 +32446,7 @@ Options:
                 this.bindViewHandlers(newView);
                 newView.startBatchRender(); // so that setElement+setDate rendering are joined
                 newView.setElement(
-                  $("<div class='fc-view fc-" + viewType + "-view'>").appendTo(
+                  $("<div className='fc-view fc-" + viewType + "-view'>").appendTo(
                     this.contentEl
                   )
                 );
@@ -34312,7 +34312,7 @@ Options:
               timeGridWrapEl = this.scroller.el.addClass(
                 "fc-time-grid-container"
               );
-              timeGridEl = $('<div class="fc-time-grid">').appendTo(
+              timeGridEl = $('<div className="fc-time-grid">').appendTo(
                 timeGridWrapEl
               );
               this.el.find(".fc-body > tr > td").append(timeGridWrapEl);
@@ -34340,26 +34340,26 @@ Options:
               var theme = this.calendar.theme;
               return (
                 "" +
-                '<table class="' +
+                '<table className="' +
                 theme.getClass("tableGrid") +
                 '">' +
                 (this.opt("columnHeader")
-                  ? '<thead class="fc-head">' +
+                  ? '<thead className="fc-head">' +
                     "<tr>" +
-                    '<td class="fc-head-container ' +
+                    '<td className="fc-head-container ' +
                     theme.getClass("widgetHeader") +
                     '">&nbsp;</td>' +
                     "</tr>" +
                     "</thead>"
                   : "") +
-                '<tbody class="fc-body">' +
+                '<tbody className="fc-body">' +
                 "<tr>" +
-                '<td class="' +
+                '<td className="' +
                 theme.getClass("widgetContent") +
                 '">' +
                 (this.dayGrid
-                  ? '<div class="fc-day-grid"></div>' +
-                    '<hr class="fc-divider ' +
+                  ? '<div className="fc-day-grid"></div>' +
+                    '<hr className="fc-divider ' +
                     theme.getClass("widgetHeader") +
                     '"></hr>'
                   : "") +
@@ -34576,7 +34576,7 @@ Options:
                 weekText = weekStart.format(this.opt("smallWeekFormat"));
                 return (
                   "" +
-                  '<th class="fc-axis fc-week-number ' +
+                  '<th className="fc-axis fc-week-number ' +
                   calendar.theme.getClass("widgetHeader") +
                   '" ' +
                   view.axisStyleAttr() +
@@ -34594,7 +34594,7 @@ Options:
                 );
               } else {
                 return (
-                  '<th class="fc-axis ' +
+                  '<th className="fc-axis ' +
                   calendar.theme.getClass("widgetHeader") +
                   '" ' +
                   view.axisStyleAttr() +
@@ -34606,7 +34606,7 @@ Options:
             renderBgIntroHtml: function () {
               var view = this.view;
               return (
-                '<td class="fc-axis ' +
+                '<td className="fc-axis ' +
                 view.calendar.theme.getClass("widgetContent") +
                 '" ' +
                 view.axisStyleAttr() +
@@ -34617,7 +34617,7 @@ Options:
             // Affects content-skeleton, helper-skeleton, highlight-skeleton for both the time-grid and day-grid.
             renderIntroHtml: function () {
               var view = this.view;
-              return '<td class="fc-axis" ' + view.axisStyleAttr() + "></td>";
+              return '<td className="fc-axis" ' + view.axisStyleAttr() + "></td>";
             },
           };
           // Will customize the rendering behavior of the AgendaView's dayGrid
@@ -34627,7 +34627,7 @@ Options:
               var view = this.view;
               return (
                 "" +
-                '<td class="fc-axis ' +
+                '<td className="fc-axis ' +
                 view.calendar.theme.getClass("widgetContent") +
                 '" ' +
                 view.axisStyleAttr() +
@@ -34642,7 +34642,7 @@ Options:
             // Affects content-skeleton, helper-skeleton, highlight-skeleton for both the time-grid and day-grid.
             renderIntroHtml: function () {
               var view = this.view;
-              return '<td class="fc-axis" ' + view.axisStyleAttr() + "></td>";
+              return '<td className="fc-axis" ' + view.axisStyleAttr() + "></td>";
             },
           };
           function groupEventFootprintsByAllDay(eventFootprints) {
@@ -34793,9 +34793,9 @@ Options:
             TimeGrid.prototype.renderSkeleton = function () {
               var theme = this.view.calendar.theme;
               this.el.html(
-                '<div class="fc-bg"></div>' +
-                  '<div class="fc-slats"></div>' +
-                  '<hr class="fc-divider ' +
+                '<div className="fc-bg"></div>' +
+                  '<div className="fc-slats"></div>' +
+                  '<hr className="fc-divider ' +
                   theme.getClass("widgetHeader") +
                   '" style="display:none"></hr>'
               );
@@ -34805,7 +34805,7 @@ Options:
               var theme = this.view.calendar.theme;
               this.slatContainerEl = this.el.find("> .fc-slats").html(
                 // avoids needing ::unrenderSlats()
-                '<table class="' +
+                '<table className="' +
                   theme.getClass("tableGrid") +
                   '">' +
                   this.renderSlatRowHtml() +
@@ -34842,7 +34842,7 @@ Options:
                   )
                 );
                 axisHtml =
-                  '<td class="fc-axis fc-time ' +
+                  '<td className="fc-axis fc-time ' +
                   theme.getClass("widgetContent") +
                   '" ' +
                   view.axisStyleAttr() +
@@ -34857,10 +34857,10 @@ Options:
                   '<tr data-time="' +
                   slotDate.format("HH:mm:ss") +
                   '"' +
-                  (isLabeled ? "" : ' class="fc-minor"') +
+                  (isLabeled ? "" : ' className="fc-minor"') +
                   ">" +
                   (!isRTL ? axisHtml : "") +
-                  '<td class="' +
+                  '<td className="' +
                   theme.getClass("widgetContent") +
                   '"></td>' +
                   (isRTL ? axisHtml : "") +
@@ -34883,7 +34883,7 @@ Options:
                 this.headContainerEl.html(this.renderHeadHtml());
               }
               this.el.find("> .fc-bg").html(
-                '<table class="' +
+                '<table className="' +
                   theme.getClass("tableGrid") +
                   '">' +
                   this.renderBgTrHtml(0) + // row=0
@@ -34909,17 +34909,17 @@ Options:
               for (i = 0; i < this.colCnt; i++) {
                 cellHtml +=
                   "<td>" +
-                  '<div class="fc-content-col">' +
-                  '<div class="fc-event-container fc-helper-container"></div>' +
-                  '<div class="fc-event-container"></div>' +
-                  '<div class="fc-highlight-container"></div>' +
-                  '<div class="fc-bgevent-container"></div>' +
-                  '<div class="fc-business-container"></div>' +
+                  '<div className="fc-content-col">' +
+                  '<div className="fc-event-container fc-helper-container"></div>' +
+                  '<div className="fc-event-container"></div>' +
+                  '<div className="fc-highlight-container"></div>' +
+                  '<div className="fc-bgevent-container"></div>' +
+                  '<div className="fc-business-container"></div>' +
                   "</div>" +
                   "</td>";
               }
               skeletonEl = this.contentSkeletonEl = $(
-                '<div class="fc-content-skeleton">' +
+                '<div className="fc-content-skeleton">' +
                   "<table>" +
                   "<tr>" +
                   cellHtml +
@@ -35009,7 +35009,7 @@ Options:
               for (i = 0; i < segs.length; i++) {
                 nodes.push(
                   $(
-                    '<div class="fc-now-indicator fc-now-indicator-line"></div>'
+                    '<div className="fc-now-indicator fc-now-indicator-line"></div>'
                   )
                     .css("top", top)
                     .appendTo(this.colContainerEls.eq(segs[i].col))[0]
@@ -35020,7 +35020,7 @@ Options:
                 // is the current time in view?
                 nodes.push(
                   $(
-                    '<div class="fc-now-indicator fc-now-indicator-arrow"></div>'
+                    '<div className="fc-now-indicator fc-now-indicator-arrow"></div>'
                   )
                     .css("top", top)
                     .appendTo(this.el.find(".fc-content-skeleton"))[0]
@@ -35393,7 +35393,7 @@ Does not own rendering. Use for low-level util methods by TimeGrid.
                 startTimeText = this.getTimeText(seg.footprint, null, false); // displayEnd=false
               }
               return (
-                '<a class="' +
+                '<a className="' +
                 classes.join(" ") +
                 '"' +
                 (eventDef.url
@@ -35401,9 +35401,9 @@ Does not own rendering. Use for low-level util methods by TimeGrid.
                   : "") +
                 (skinCss ? ' style="' + skinCss + '"' : "") +
                 ">" +
-                '<div class="fc-content">' +
+                '<div className="fc-content">' +
                 (timeText
-                  ? '<div class="fc-time"' +
+                  ? '<div className="fc-time"' +
                     ' data-start="' +
                     util_1.htmlEscape(startTimeText) +
                     '"' +
@@ -35417,20 +35417,20 @@ Does not own rendering. Use for low-level util methods by TimeGrid.
                     "</div>"
                   : "") +
                 (eventDef.title
-                  ? '<div class="fc-title">' +
+                  ? '<div className="fc-title">' +
                     util_1.htmlEscape(eventDef.title) +
                     "</div>"
                   : "") +
                 "</div>" +
-                '<div class="fc-bg"></div>' +
+                '<div className="fc-bg"></div>' +
                 /* TODO: write CSS for this
             (isResizableFromStart ?
-              '<div class="fc-resizer fc-start-resizer"></div>' :
+              '<div className="fc-resizer fc-start-resizer"></div>' :
               ''
               ) +
             */
                 (isResizableFromEnd
-                  ? '<div class="fc-resizer fc-end-resizer"></div>'
+                  ? '<div className="fc-resizer fc-end-resizer"></div>'
                   : "") +
                 "</a>"
               );
@@ -35867,7 +35867,7 @@ Does not own rendering. Use for low-level util methods by TimeGrid.
                     seg = levelSegs[j];
                     emptyCellsUntil(seg.leftCol);
                     // create a container that occupies or more columns. append the event element.
-                    td = $('<td class="fc-event-container">').append(seg.el);
+                    td = $('<td className="fc-event-container">').append(seg.el);
                     if (seg.leftCol !== seg.rightCol) {
                       td.attr("colspan", seg.rightCol - seg.leftCol + 1);
                     } else {
@@ -35980,17 +35980,17 @@ Does not own rendering. Use for low-level util methods by TimeGrid.
                 timeText = this.getTimeText(seg.footprint);
                 if (timeText) {
                   timeHtml =
-                    '<span class="fc-time">' +
+                    '<span className="fc-time">' +
                     util_1.htmlEscape(timeText) +
                     "</span>";
                 }
               }
               titleHtml =
-                '<span class="fc-title">' +
+                '<span className="fc-title">' +
                 (util_1.htmlEscape(eventDef.title || "") || "&nbsp;") + // we always want one line of height
                 "</span>";
               return (
-                '<a class="' +
+                '<a className="' +
                 classes.join(" ") +
                 '"' +
                 (eventDef.url
@@ -35998,16 +35998,16 @@ Does not own rendering. Use for low-level util methods by TimeGrid.
                   : "") +
                 (skinCss ? ' style="' + skinCss + '"' : "") +
                 ">" +
-                '<div class="fc-content">' +
+                '<div className="fc-content">' +
                 (this.dayGrid.isRTL
                   ? titleHtml + " " + timeHtml // put a natural space in between
                   : timeHtml + " " + titleHtml) + //
                 "</div>" +
                 (isResizableFromStart
-                  ? '<div class="fc-resizer fc-start-resizer"></div>'
+                  ? '<div className="fc-resizer fc-start-resizer"></div>'
                   : "") +
                 (isResizableFromEnd
-                  ? '<div class="fc-resizer fc-end-resizer"></div>'
+                  ? '<div className="fc-resizer fc-end-resizer"></div>'
                   : "") +
                 "</a>"
               );
@@ -36061,7 +36061,7 @@ Does not own rendering. Use for low-level util methods by TimeGrid.
               this.component.rowEls.each(function (row, rowNode) {
                 var rowEl = $(rowNode); // the .fc-row
                 var skeletonEl = $(
-                  '<div class="fc-helper-skeleton"><table></table></div>'
+                  '<div className="fc-helper-skeleton"><table></table></div>'
                 ); // will be absolutely positioned
                 var skeletonTopEl;
                 var skeletonTop;
@@ -36132,7 +36132,7 @@ Does not own rendering. Use for low-level util methods by TimeGrid.
                 className = type.toLowerCase();
               }
               skeletonEl = $(
-                '<div class="fc-' +
+                '<div className="fc-' +
                   className +
                   '-skeleton">' +
                   "<table><tr></tr></table>" +
@@ -36371,9 +36371,9 @@ Responsible for the scroller, and forwarding event-related actions into the "gri
             };
             ListView.prototype.renderEmptyMessage = function () {
               this.contentEl.html(
-                '<div class="fc-list-empty-wrap2">' + // TODO: try less wraps
-                  '<div class="fc-list-empty-wrap1">' +
-                  '<div class="fc-list-empty">' +
+                '<div className="fc-list-empty-wrap2">' + // TODO: try less wraps
+                  '<div className="fc-list-empty-wrap1">' +
+                  '<div className="fc-list-empty">' +
                   util_1.htmlEscape(this.opt("noEventsMessage")) +
                   "</div>" +
                   "</div>" +
@@ -36387,7 +36387,7 @@ Responsible for the scroller, and forwarding event-related actions into the "gri
               var daySegs;
               var i;
               var tableEl = $(
-                '<table class="fc-list-table ' +
+                '<table className="fc-list-table ' +
                   this.calendar.theme.getClass("tableList") +
                   '"><tbody></tbody></table>'
               );
@@ -36424,10 +36424,10 @@ Responsible for the scroller, and forwarding event-related actions into the "gri
               var mainFormat = this.opt("listDayFormat");
               var altFormat = this.opt("listDayAltFormat");
               return (
-                '<tr class="fc-list-heading" data-date="' +
+                '<tr className="fc-list-heading" data-date="' +
                 dayDate.format("YYYY-MM-DD") +
                 '">' +
-                '<td class="' +
+                '<td className="' +
                 (this.calendar.theme.getClass("tableListHeading") ||
                   this.calendar.theme.getClass("widgetHeader")) +
                 '" colspan="3">' +
@@ -36513,24 +36513,24 @@ Responsible for the scroller, and forwarding event-related actions into the "gri
                 classes.push("fc-has-url");
               }
               return (
-                '<tr class="' +
+                '<tr className="' +
                 classes.join(" ") +
                 '">' +
                 (this.displayEventTime
-                  ? '<td class="fc-list-item-time ' +
+                  ? '<td className="fc-list-item-time ' +
                     theme.getClass("widgetContent") +
                     '">' +
                     (timeHtml || "") +
                     "</td>"
                   : "") +
-                '<td class="fc-list-item-marker ' +
+                '<td className="fc-list-item-marker ' +
                 theme.getClass("widgetContent") +
                 '">' +
-                '<span class="fc-event-dot"' +
+                '<span className="fc-event-dot"' +
                 (bgColor ? ' style="background-color:' + bgColor + '"' : "") +
                 "></span>" +
                 "</td>" +
-                '<td class="fc-list-item-title ' +
+                '<td className="fc-list-item-title ' +
                 theme.getClass("widgetContent") +
                 '">' +
                 "<a" +
@@ -36680,7 +36680,7 @@ Responsible for the scroller, and forwarding event-related actions into the "gri
               if (sections) {
                 if (!el) {
                   el = this.el = $(
-                    "<div class='fc-toolbar " +
+                    "<div className='fc-toolbar " +
                       this.toolbarOptions.extraClasses +
                       "'>"
                   );
@@ -36690,7 +36690,7 @@ Responsible for the scroller, and forwarding event-related actions into the "gri
                 el.append(this.renderSection("left"))
                   .append(this.renderSection("right"))
                   .append(this.renderSection("center"))
-                  .append('<div class="fc-clear"></div>');
+                  .append('<div className="fc-clear"></div>');
               } else {
                 this.removeElement();
               }
@@ -36707,7 +36707,7 @@ Responsible for the scroller, and forwarding event-related actions into the "gri
               var theme = calendar.theme;
               var optionsManager = calendar.optionsManager;
               var viewSpecManager = calendar.viewSpecManager;
-              var sectionEl = $('<div class="fc-' + position + '">');
+              var sectionEl = $('<div className="fc-' + position + '">');
               var buttonStr = this.toolbarOptions.layout[position];
               var calendarCustomButtons =
                 optionsManager.get("customButtons") || {};
@@ -36777,12 +36777,12 @@ Responsible for the scroller, and forwarding event-related actions into the "gri
                           buttonAriaAttr = "";
                         } else if (buttonIcon) {
                           buttonInnerHtml =
-                            "<span class='" + buttonIcon + "'></span>";
+                            "<span className='" + buttonIcon + "'></span>";
                           buttonAriaAttr = ' aria-label="' + buttonName + '"';
                         }
                         buttonEl = $(
                           // type="button" so that it doesn't submit a form
-                          '<button type="button" class="' +
+                          '<button type="button" className="' +
                             buttonClasses.join(" ") +
                             '"' +
                             buttonAriaAttr +
@@ -38104,22 +38104,22 @@ moment.tz.link(moment_links);
       }
 
       // templates
-      var $calendar = $('<div class="digistorm-mobile-calendar"></div>');
+      var $calendar = $('<div className="digistorm-mobile-calendar"></div>');
       var $calendarControls = $(
-        '<div class="dsmcal-controls"><button class="dsmcal-prev-week"></button><div class="dsmcal-current-week"><div class="dsmcal-week-range"></div><div class="dsmcal-month-display"></div><div class="dsmcal-month-select">' +
+        '<div className="dsmcal-controls"><button className="dsmcal-prev-week"></button><div className="dsmcal-current-week"><div className="dsmcal-week-range"></div><div className="dsmcal-month-display"></div><div className="dsmcal-month-select">' +
           (settings.icons && settings.icons.calendar
             ? settings.icons.calendar + " "
             : "") +
-          'Select Date</div></div><button class="dsmcal-next-week"></button></div>'
+          'Select Date</div></div><button className="dsmcal-next-week"></button></div>'
       );
-      var $calendarContent = $('<div class="dsmcal-content"></div>');
+      var $calendarContent = $('<div className="dsmcal-content"></div>');
       var $dayBlock = $(
-        '<div class="dsmcal-day"><div class="dsmcal-label"><div class="dsmcal-label-total">0</div><div class="dsmcal-label-weekday"></div><div class="dsmcal-label-date"><div class="dsmcal-label-day"></div><div class="dsmcal-label-month"></div></div></div><div class="dsmcal-multiday-events"></div><div class="dsmcal-events"></div></div>'
+        '<div className="dsmcal-day"><div className="dsmcal-label"><div className="dsmcal-label-total">0</div><div className="dsmcal-label-weekday"></div><div className="dsmcal-label-date"><div className="dsmcal-label-day"></div><div className="dsmcal-label-month"></div></div></div><div className="dsmcal-multiday-events"></div><div className="dsmcal-events"></div></div>'
       );
       var $eventBlock = $(
-        '<div class="dsmcal-event"><div class="dsmcal-event-timestart"></div><div class="dsmcal-event-title"></div><div class="dsmcal-event-body"></div><div class="dsmcal-event-time"></div><div class="dsmcal-event-add"></div></div>'
+        '<div className="dsmcal-event"><div className="dsmcal-event-timestart"></div><div className="dsmcal-event-title"></div><div className="dsmcal-event-body"></div><div className="dsmcal-event-time"></div><div className="dsmcal-event-add"></div></div>'
       );
-      var $monthNav = $('<div class="dsmcal-monthnav"></div>');
+      var $monthNav = $('<div className="dsmcal-monthnav"></div>');
       $calendarControls.append($monthNav);
 
       //cache
@@ -38221,7 +38221,7 @@ moment.tz.link(moment_links);
         $table = $("<table></table>");
         $monthNav.append($table);
 
-        var $todayBtn = $('<div class="dsmcal-this-week">TODAY</div>');
+        var $todayBtn = $('<div className="dsmcal-this-week">TODAY</div>');
         $monthNav.append($todayBtn);
         $todayBtn.click(function () {
           var sunday = moment().tz(timezone); // use set timezone
@@ -38265,7 +38265,7 @@ moment.tz.link(moment_links);
                 $day.append(day + " ");
                 $day.addClass(month + "-" + day);
               }
-              $day.append('<span class="day-badge">');
+              $day.append('<span className="day-badge">');
             }
           } else {
             for (var weekday = 0; weekday < 7; weekday++) {
@@ -38286,7 +38286,7 @@ moment.tz.link(moment_links);
                 $day.append(day + " ");
                 $day.addClass(month + "-" + day);
               }
-              $day.append('<span class="day-badge">');
+              $day.append('<span className="day-badge">');
             }
           }
         }
@@ -38329,7 +38329,7 @@ moment.tz.link(moment_links);
           .set("second", 0)
           .set("millisecond", 0); // start 00:00.000
         changeActiveDate(sunday);
-        $calendarContent.html('<div class="dsmcal-loading"></div>');
+        $calendarContent.html('<div className="dsmcal-loading"></div>');
         $calendar.append($calendarContent);
         getWeekEvents(sunday);
         generateMonth(sunday.clone().add(3, "days"));
@@ -38503,11 +38503,11 @@ moment.tz.link(moment_links);
         $newEvent
           .find(".dsmcal-event-add")
           .html(
-            '<a class="dsmcal-addtocalendar" href="' +
+            '<a className="dsmcal-addtocalendar" href="' +
               generateIcs(event) +
               '" download="' +
               event.title +
-              '.ics"><svg class="dsmcal-cal-icon" viewBox="0 0 10 11" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M9.5,1.5 L9,1.5 L9,0.5 L8,0.5 L8,1.5 L4,1.5 L4,0.5 L3,0.5 L3,1.5 L2.5,1.5 C1.945,1.5 1.505,1.95 1.505,2.5 L1.5,9.5 C1.5,10.05 1.945,10.5 2.5,10.5 L9.5,10.5 C10.05,10.5 10.5,10.05 10.5,9.5 L10.5,2.5 C10.5,1.95 10.05,1.5 9.5,1.5 L9.5,1.5 Z M9.5,9.5 L2.5,9.5 L2.5,4 L9.5,4 L9.5,9.5 L9.5,9.5 Z M3.5,5 L6,5 L6,7.5 L3.5,7.5 L3.5,5 Z" transform="translate(-1,0)"></path></svg>Add to Calendar</a>'
+              '.ics"><svg className="dsmcal-cal-icon" viewBox="0 0 10 11" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M9.5,1.5 L9,1.5 L9,0.5 L8,0.5 L8,1.5 L4,1.5 L4,0.5 L3,0.5 L3,1.5 L2.5,1.5 C1.945,1.5 1.505,1.95 1.505,2.5 L1.5,9.5 C1.5,10.05 1.945,10.5 2.5,10.5 L9.5,10.5 C10.05,10.5 10.5,10.05 10.5,9.5 L10.5,2.5 C10.5,1.95 10.05,1.5 9.5,1.5 L9.5,1.5 Z M9.5,9.5 L2.5,9.5 L2.5,4 L9.5,4 L9.5,9.5 L9.5,9.5 Z M3.5,5 L6,5 L6,7.5 L3.5,7.5 L3.5,5 Z" transform="translate(-1,0)"></path></svg>Add to Calendar</a>'
           );
 
         if (isRepeated) {
@@ -38518,21 +38518,21 @@ moment.tz.link(moment_links);
           event.attachments.forEach(function (attachment) {
             if (attachment.type == "file") {
               var new_attachment =
-                '<p class="dsmcal-event-attachment"><i class="fa fa-file"></i><a href="' +
+                '<p className="dsmcal-event-attachment"><i className="fa fa-file"></i><a href="' +
                 attachment.url +
                 '" target="_blank">' +
                 attachment.file_name +
                 "</a></p>";
             } else if (attachment.type == "link") {
               var new_attachment =
-                '<p class="dsmcal-event-attachment"><i class="fa fa-link"></i><a href="' +
+                '<p className="dsmcal-event-attachment"><i className="fa fa-link"></i><a href="' +
                 attachment.url +
                 '" target="_blank">' +
                 attachment.url +
                 "</a></p>";
             } else if (attachment.type == "address") {
               var new_attachment =
-                '<p class="dsmcal-event-attachment"><i class="fa fa-map-marker"></i>' +
+                '<p className="dsmcal-event-attachment"><i className="fa fa-map-marker"></i>' +
                 String(attachment.address).replace("\n", "<br>") +
                 "</p>";
             } else if (attachment.type == "contact") {
@@ -38553,7 +38553,7 @@ moment.tz.link(moment_links);
                 );
               }
               var new_attachment =
-                '<p class="dsmcal-event-attachment"><i class="fa fa-phone"></i>' +
+                '<p className="dsmcal-event-attachment"><i className="fa fa-phone"></i>' +
                 pieces.join("<br>") +
                 "</p>";
             }
@@ -38593,7 +38593,7 @@ moment.tz.link(moment_links);
           $day
             .find(".dsmcal-label")
             .append(
-              '<span class="dsmcal-label-multimarker dsmcal-marker-' +
+              '<span className="dsmcal-label-multimarker dsmcal-marker-' +
                 event.markerID +
                 '"></span>'
             );
@@ -38646,7 +38646,7 @@ moment.tz.link(moment_links);
       }
 
       function displayWeek(start) {
-        $calendarContent.html('<div class="dsmcal-loading"></div>');
+        $calendarContent.html('<div className="dsmcal-loading"></div>');
 
         var end = start
           .clone()
@@ -39016,7 +39016,7 @@ moment.tz.link(moment_links);
                   $day
                     .find(".dsmcal-label")
                     .append(
-                      '<span class="dsmcal-label-multimarker dsmcal-marker-' +
+                      '<span className="dsmcal-label-multimarker dsmcal-marker-' +
                         event.markerID +
                         '"></span>'
                     );
@@ -39037,11 +39037,11 @@ moment.tz.link(moment_links);
           }
           if (!hasEvents) {
             // no events
-            $calendarContent.html('<div class="dsmcal-empty">No events</div>');
+            $calendarContent.html('<div className="dsmcal-empty">No events</div>');
           }
         } else {
           // no events
-          $calendarContent.html('<div class="dsmcal-empty">No events</div>');
+          $calendarContent.html('<div className="dsmcal-empty">No events</div>');
         }
         $calendar.append($calendarContent);
       }
@@ -39964,7 +39964,7 @@ var digistormWeb = {
         dataType: "json",
         success: function (events) {
           var eventsClone = $(
-            '<div class="event"><div class="event-date"><div class="event-date"></div></div><div class="event-details"><h3 class="event-title"></h3><small class="event-time"></small></div></div>'
+            '<div className="event"><div className="event-date"><div className="event-date"></div></div><div className="event-details"><h3 className="event-title"></h3><small className="event-time"></small></div></div>'
           );
 
           events.sort(function (x, y) {
@@ -40025,12 +40025,12 @@ var digistormWeb = {
             $(this).addClass("blocks-" + $(this).find(".event").length);
             $(this)
               .find(".event")
-              .wrapAll('<div class="events-block-inside"></div>');
+              .wrapAll('<div className="events-block-inside"></div>');
           });
         },
       })
         .fail(function () {
-          block.html('<p class="error"><strong>Unknown error</strong></p>');
+          block.html('<p className="error"><strong>Unknown error</strong></p>');
         })
         .always(function () {
           block.addClass("events-loaded");
@@ -40113,12 +40113,12 @@ var digistormWeb = {
             $(this).addClass("blocks-" + $(this).find(".event").length);
             $(this)
               .find(".event")
-              .wrapAll('<div class="events-block-inside"></div>');
+              .wrapAll('<div className="events-block-inside"></div>');
           });
         },
       })
         .fail(function () {
-          block.html('<p class="error"><strong>Unknown error</strong></p>');
+          block.html('<p className="error"><strong>Unknown error</strong></p>');
         })
         .always(function () {
           block.addClass("events-loaded");
@@ -40200,12 +40200,12 @@ var digistormWeb = {
             $(this).addClass("blocks-" + $(this).find(".event").length);
             $(this)
               .find(".event")
-              .wrapAll('<div class="events-block-inside"></div>');
+              .wrapAll('<div className="events-block-inside"></div>');
           });
         },
       })
         .fail(function () {
-          block.html('<p class="error"><strong>Unknown error</strong></p>');
+          block.html('<p className="error"><strong>Unknown error</strong></p>');
         })
         .always(function () {
           block.addClass("events-loaded");
@@ -40215,9 +40215,9 @@ var digistormWeb = {
 
   // create modal from reach event
   createEventModal: function (event, calendarTimezone) {
-    $modal = $('<div class="cal-modal"></div>');
-    var $holder = $('<div class="content-holder"></div>');
-    var $content = $('<div class="content"></div>');
+    $modal = $('<div className="cal-modal"></div>');
+    var $holder = $('<div className="content-holder"></div>');
+    var $content = $('<div className="content"></div>');
 
     $content.append("<h2>" + event.title + "</h2>");
 
@@ -40260,7 +40260,7 @@ var digistormWeb = {
         switch (attachment.type) {
           case "address":
             $content.append(
-              '<div class="attachment attachment-address"><i class="fa fa-map-marker"></i> ' +
+              '<div className="attachment attachment-address"><i className="fa fa-map-marker"></i> ' +
                 String(attachment.address).replace("\n", "<br>") +
                 "</div>"
             );
@@ -40287,14 +40287,14 @@ var digistormWeb = {
               );
             }
             $content.append(
-              '<div class="attachment attachment-contact"><i class="fa fa-phone"></i> ' +
+              '<div className="attachment attachment-contact"><i className="fa fa-phone"></i> ' +
                 contact_details.join("<br>") +
                 "</div>"
             );
             break;
           case "link":
             $content.append(
-              '<div class="attachment attachment-link"><i class="fa fa-link"></i> ' +
+              '<div className="attachment attachment-link"><i className="fa fa-link"></i> ' +
                 $('<a target="blank">')
                   .attr("href", attachment.url)
                   .text(attachment.url)
@@ -40304,7 +40304,7 @@ var digistormWeb = {
             break;
           case "file":
             $content.append(
-              '<div class="attachment attachment-file"><i class="fa fa-file"></i> ' +
+              '<div className="attachment attachment-file"><i className="fa fa-file"></i> ' +
                 $('<a target="blank">')
                   .attr("href", attachment.url)
                   .text(attachment.file_name)
@@ -40317,11 +40317,11 @@ var digistormWeb = {
     }
 
     $content.append(
-      '<a class="dsmcal-addtocalendar" href="' +
+      '<a className="dsmcal-addtocalendar" href="' +
         generateIcs(event) +
         '" download="' +
         event.title +
-        '.ics"><svg class="dsmcal-cal-icon" viewBox="0 0 10 11" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M9.5,1.5 L9,1.5 L9,0.5 L8,0.5 L8,1.5 L4,1.5 L4,0.5 L3,0.5 L3,1.5 L2.5,1.5 C1.945,1.5 1.505,1.95 1.505,2.5 L1.5,9.5 C1.5,10.05 1.945,10.5 2.5,10.5 L9.5,10.5 C10.05,10.5 10.5,10.05 10.5,9.5 L10.5,2.5 C10.5,1.95 10.05,1.5 9.5,1.5 L9.5,1.5 Z M9.5,9.5 L2.5,9.5 L2.5,4 L9.5,4 L9.5,9.5 L9.5,9.5 Z M3.5,5 L6,5 L6,7.5 L3.5,7.5 L3.5,5 Z" transform="translate(-1,0)"></path></svg><span class="add-to-calendar">Add to Calendar</span></a>'
+        '.ics"><svg className="dsmcal-cal-icon" viewBox="0 0 10 11" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M9.5,1.5 L9,1.5 L9,0.5 L8,0.5 L8,1.5 L4,1.5 L4,0.5 L3,0.5 L3,1.5 L2.5,1.5 C1.945,1.5 1.505,1.95 1.505,2.5 L1.5,9.5 C1.5,10.05 1.945,10.5 2.5,10.5 L9.5,10.5 C10.05,10.5 10.5,10.05 10.5,9.5 L10.5,2.5 C10.5,1.95 10.05,1.5 9.5,1.5 L9.5,1.5 Z M9.5,9.5 L2.5,9.5 L2.5,4 L9.5,4 L9.5,9.5 L9.5,9.5 Z M3.5,5 L6,5 L6,7.5 L3.5,7.5 L3.5,5 Z" transform="translate(-1,0)"></path></svg><span className="add-to-calendar">Add to Calendar</span></a>'
     );
 
     $modal.click(function (event) {
@@ -40334,7 +40334,7 @@ var digistormWeb = {
       }
     });
 
-    $holder.append('<div class="close">CLOSE</div>');
+    $holder.append('<div className="close">CLOSE</div>');
     $holder.append($content);
     $modal.append($holder);
 
@@ -40743,9 +40743,9 @@ var digistormWeb = {
         var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
         $(this).empty().html(newStr);
         $(this).append(
-          '<p><a href="#" class="read-more-text">Read more</a></p>'
+          '<p><a href="#" className="read-more-text">Read more</a></p>'
         );
-        $(this).append('<span class="more-text">' + removedStr + "</span>");
+        $(this).append('<span className="more-text">' + removedStr + "</span>");
       }
     });
     $(".read-more-text").click(function (e) {
@@ -40936,7 +40936,7 @@ jQuery(document).ready(function ($) {
 
   function secondMenu() {
     if ($("nav").length > 0) {
-      $("nav .has-sub-second").append("<i class='iconfont icon-top'></i>");
+      $("nav .has-sub-second").append("<i className='iconfont icon-top'></i>");
       $("nav .has-sub-second").on("click", function (e) {
         if ($(window).width() < 1280) {
           var me = $(this);
@@ -41087,7 +41087,7 @@ jQuery(document).ready(function ($) {
     if ($(".form-wrap select:not([multiple])").length > 0) {
       $(".form-wrap select:not([multiple])")
         .parents(".control")
-        .append("<span class='iconfont icon-bottom'></span>");
+        .append("<span className='iconfont icon-bottom'></span>");
       var unSelected = "#0A193F";
       var selected = "#0A193F";
       $(function () {
@@ -41120,8 +41120,8 @@ jQuery(document).ready(function ($) {
     //     slidesToScroll: 1,
     //     autoplay: true,
     //     autoplaySpeed: 5200,
-    //     prevArrow: '<button type="button" class="slick-prev"><span class="icon-arrow-left"></span></button>',
-    //     nextArrow: '<button type="button" class="slick-next"><span class="icon-arrow-right"></span></button>',
+    //     prevArrow: '<button type="button" className="slick-prev"><span className="icon-arrow-left"></span></button>',
+    //     nextArrow: '<button type="button" className="slick-next"><span className="icon-arrow-right"></span></button>',
     //   });
     // }
     // media_slider.find(".item").addClass("move");

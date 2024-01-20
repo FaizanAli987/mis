@@ -8,15 +8,14 @@ function Home() {
     <>
     <Header/>
     
-
-      <section class="global-banners home-banners">
-        <div class="container is-fluid">
-          <div class="banners video-carousel">
-            <div class="banner">
-              <div class="image-box">
-                <div class="image">
+      <section className="global-banners home-banners">
+        <div className="container is-fluid">
+          <div className="banners video-carousel">
+            <div className="banner">
+              <div className="image-box">
+                <div className="image">
                   <span
-                    class="zoomOut"
+                    className="zoomOut"
                     style={{
                       backgroundImage: `url('https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1DYW1wdXMtYWVyaWFsLXZpZXcuSlBHIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJjZW50ZXIiLCJ3aWR0aCI6MjQwMCwiaGVpZ2h0IjpudWxsfSwicXVhbGl0eSI6ODJ9fQ==')`,
                       backgroundPosition: "50% 50%",
@@ -24,20 +23,20 @@ function Home() {
                   ></span>
                 </div>
               </div>
-              <div class="floating-controls">
-                <i class="control-pause fa fa-pause"></i>
-                <i class="control-vol fa fa-volume-off"></i>
+              <div className="floating-controls">
+                <i className="control-pause fa fa-pause"></i>
+                <i className="control-vol fa fa-volume-off"></i>
               </div>
-              <div class="video-holder">
-                <div class="video-sizer"></div>
+              <div className="video-holder">
+                <div className="video-sizer"></div>
                 <div
-                  class="video-player container-size"
+                  className="video-player container-size"
                   data-index="1"
                   data-settings='{"poster":"https:\/\/images-eu.digistormhosting.com.au\/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1DYW1wdXMtYWVyaWFsLXZpZXcuSlBHIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJjZW50ZXIiLCJ3aWR0aCI6MjQwMCwiaGVpZ2h0IjpudWxsfSwicXVhbGl0eSI6ODJ9fQ==","controls":[],"autoplay":false,"muted":true,"volume":0,"clickToPlay":true,"fullscreen":{"enabled":false},"loop":{"active":true}}'
                 >
                   <video
                     poster="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1DYW1wdXMtYWVyaWFsLXZpZXcuSlBHIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJjZW50ZXIiLCJ3aWR0aCI6MjQwMCwiaGVpZ2h0IjpudWxsfSwicXVhbGl0eSI6ODJ9fQ=="
-                    class="player"
+                    className="player"
                     playsinline=""
                     muted=""
                   >
@@ -53,86 +52,86 @@ function Home() {
         </div>
       </section>
 
-      <section class="home-guide">
-        <div class="content fadeInUp">
-          <div class="text-box darkbg">
+      <section className="home-guide">
+        <div className="content fadeInUp">
+          <div className="text-box darkbg">
             <h1>MIS IS A LEADING INTERNATIONAL DAY SCHOOL</h1>
             <p>
               Offering different programmes, we inspire a lifelong love of
               learning and actively develop global citizenship in a welcoming,
               supportive environment.
             </p>
-            <div class="word-button-block">
-              <div class="button-block">
+            <div className="word-button-block">
+              <div className="button-block">
                 <p>
-                  <a href="about-us.html" target="" class="readmore">
+                  <a href="about-us.html" target="" className="readmore">
                     FIND OUT MORE
                   </a>
                 </p>
               </div>
-              <div class="word-block word-block-allWords"></div>
+              <div className="word-block word-block-allWords"></div>
             </div>
           </div>
-          <div class="right-box">
-            <div class="item-c">
+          <div className="right-box">
+            <div className="item-c">
               <a href="our-schools.html" target="">
                 {" "}
-                <div class="inner">
-                  <div class="img">
+                <div className="inner">
+                  <div className="img">
                     <img
                       src="https://media.eu.digistormhosting.com.au/bbis-de-be-729-website/content/images/student-teacher.svg?v=1614122601"
                       alt="Teacher : student"
                     />
                   </div>
-                  <p class="num">1:7</p>
+                  <p className="num">1:7</p>
                   <p>Teacher : student</p>
                 </div>
               </a>{" "}
             </div>
-            <div class="item-c">
+            <div className="item-c">
               <a
                 href="our-schools/secondary-school/ib-diploma-programme.html"
                 target=""
               >
                 {" "}
-                <div class="inner">
-                  <div class="img">
+                <div className="inner">
+                  <div className="img">
                     <img
                       src="https://media.eu.digistormhosting.com.au/bbis-de-be-729-website/content/images/Overview.svg?v=1614122450"
                       alt="IB Diploma Score"
                     />
                   </div>
-                  <p class="num">34</p>
+                  <p className="num">34</p>
                   <p>IB Diploma Score</p>
                 </div>
               </a>{" "}
             </div>
-            <div class="item-c">
+            <div className="item-c">
               <a href="about-us.html" target="">
                 {" "}
-                <div class="inner">
-                  <div class="img">
+                <div className="inner">
+                  <div className="img">
                     <img
                       src="https://media.eu.digistormhosting.com.au/bbis-de-be-729-website/content/images/Nationality.svg?v=1614122612"
                       alt="Nationalities"
                     />
                   </div>
-                  <p class="num">70+</p>
+                  <p className="num">70+</p>
                   <p>Nationalities</p>
                 </div>
               </a>{" "}
             </div>
-            <div class="item-c">
+            <div className="item-c">
               <a href="about-us/our-campus.html" target="">
                 {" "}
-                <div class="inner">
-                  <div class="img">
+                <div className="inner">
+                  <div className="img">
                     <img
                       src="https://media.eu.digistormhosting.com.au/bbis-de-be-729-website/content/images/learning-bbis_2021-02-23-232433.svg?v=1614122673"
                       alt="Learning space"
                     />
                   </div>
-                  <p class="num">7,668m²</p>
+                  <p className="num">7,668m²</p>
                   <p>Learning space</p>
                 </div>
               </a>{" "}
@@ -141,10 +140,10 @@ function Home() {
         </div>
       </section>
 
-      <section class="intro-wrap">
-        <div class="container">
-          <div class="content">
-            <div class="title-box has-text-centered fadeInUp">
+      <section className="intro-wrap">
+        <div className="container">
+          <div className="content">
+            <div className="title-box has-text-centered fadeInUp">
               <h1>Our Schools</h1>
               <p>
                 From the earliest years of education right through to from
@@ -152,10 +151,10 @@ function Home() {
                 thrive.
               </p>
             </div>
-            <div class="group group-slick">
-              <div class="item-c slider-wrapper ">
+            <div className="group group-slick">
+              <div className="item-c slider-wrapper ">
                 <a href="our-schools/primary-school.html" target="">
-                  <div class="img-c">
+                  <div className="img-c">
                     <div
                       className="zoomOut"
                       style={{
@@ -164,14 +163,14 @@ function Home() {
                       }}
                     ></div>
                   </div>
-                  <div class="text-c">
+                  <div className="text-c">
                     <h3>Primary</h3>
                   </div>
                 </a>
               </div>
-              <div class="item-c slider-wrapper ">
+              <div className="item-c slider-wrapper ">
                 <a href="our-schools/secondary-school.html" target="">
-                  <div class="img-c">
+                  <div className="img-c">
                     <div
                       className="zoomOut"
                       style={{
@@ -180,21 +179,21 @@ function Home() {
                       }}
                     ></div>
                   </div>
-                  <div class="text-c">
+                  <div className="text-c">
                     <h3>SECONDARY</h3>
                   </div>
                 </a>
               </div>
-              <div class="slider-progress">
-                <div class="progress"></div>
+              <div className="slider-progress">
+                <div className="progress"></div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="background-text-wrap">
-        <div class="content">
-          <div class="img-c">
+      <section className="background-text-wrap">
+        <div className="content">
+          <div className="img-c">
             <div
               className="zoomOut"
               style={{
@@ -203,7 +202,7 @@ function Home() {
               }}
             ></div>
           </div>
-          <div class="text-c fadeInUp darkbg">
+          <div className="text-c fadeInUp darkbg">
             <h2>Academic Excellence</h2>
             <p>
               Small class sizes, an engaging curriculum, an extensive
@@ -212,7 +211,7 @@ function Home() {
               themselves.
             </p>
             <p>
-              <a href="our-schools.html" target="" class="readmore">
+              <a href="our-schools.html" target="" className="readmore">
                 FIND OUT MORE
               </a>
             </p>
@@ -220,18 +219,18 @@ function Home() {
         </div>
       </section>
 
-      <section class="news-events-wrap">
-        <div class="container fadeInUp">
-          <div class="content">
-            <div class="title-box has-text-centered">
-              <p class="heading-tag">NEWS &amp; EVENTS</p>
+      <section className="news-events-wrap">
+        <div className="container fadeInUp">
+          <div className="content">
+            <div className="title-box has-text-centered">
+              <p className="heading-tag">NEWS &amp; EVENTS</p>
               <h2>Latest at BBIS</h2>
             </div>
-            <div class="columns is-variable is-2">
-              <div class="column is-6-desktop is-6-tablet is-12-mobile">
-                <div class="group news-wrapper">
-                  <div class="item-c item1">
-                    <div class="img-c">
+            <div className="columns is-variable is-2">
+              <div className="column is-6-desktop is-6-tablet is-12-mobile">
+                <div className="group news-wrapper">
+                  <div className="item-c item1">
+                    <div className="img-c">
                       <a href="news/bimp-2024.html">
                         <div
                           className="zoomOut"
@@ -242,23 +241,23 @@ function Home() {
                         ></div>
                       </a>
                     </div>
-                    <div class="text-c">
+                    <div className="text-c">
                       <a href="news/bimp-2024.html">
-                        <div class="outer">
-                          <div class="tag">News</div>
+                        <div className="outer">
+                          <div className="tag">News</div>
                           <h3>BIMP 2024</h3>
-                          <p class="date">15 Dec 2023</p>
+                          <p className="date">15 Dec 2023</p>
                         </div>
                       </a>
                       <p>
-                        <a href="news/bimp-2024.html" class="readmore">
+                        <a href="news/bimp-2024.html" className="readmore">
                           Read more
                         </a>
                       </p>
                     </div>
                   </div>
-                  <div class="item-c item2">
-                    <div class="img-c">
+                  <div className="item-c item2">
+                    <div className="img-c">
                       <a href="news/model-united-nations-at-bbis.html">
                         <div
                           className="zoomOut"
@@ -269,18 +268,18 @@ function Home() {
                         ></div>
                       </a>
                     </div>
-                    <div class="text-c">
+                    <div className="text-c">
                       <a href="news/model-united-nations-at-bbis.html">
-                        <div class="outer">
-                          <div class="tag">News</div>
+                        <div className="outer">
+                          <div className="tag">News</div>
                           <h3>Model United Nations at BBIS</h3>
-                          <p class="date">29 Nov 2023</p>
+                          <p className="date">29 Nov 2023</p>
                         </div>
                       </a>
                       <p>
                         <a
                           href="news/model-united-nations-at-bbis.html"
-                          class="readmore"
+                          className="readmore"
                         >
                           Read more
                         </a>
@@ -289,15 +288,15 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div class="show-all-link">
-                <a href="#" class="button">
+              <div className="show-all-link">
+                <a href="#" className="button">
                   Show More
                 </a>
               </div>
-              <div class="column is-6-desktop is-6-tablet is-12-mobile">
-                <div class="group events-wrapper">
-                  <div class="item-c item1">
-                    <div class="img-c">
+              <div className="column is-6-desktop is-6-tablet is-12-mobile">
+                <div className="group events-wrapper">
+                  <div className="item-c item1">
+                    <div className="img-c">
                       <a href="events/online-live-q-a-chat-early-education.html">
                         <div
                           className="zoomOut"
@@ -308,29 +307,29 @@ function Home() {
                         ></div>
                       </a>
                     </div>
-                    <div class="text-c">
+                    <div className="text-c">
                       <a href="events/online-live-q-a-chat-early-education.html">
-                        <div class="outer">
-                          <div class="tag">Event</div>
+                        <div className="outer">
+                          <div className="tag">Event</div>
                           <h3>
                             Online live Q&amp;A chat: Early Education and
                             Admissions
                           </h3>
-                          <p class="date">23 Jan 2024</p>
+                          <p className="date">23 Jan 2024</p>
                         </div>
                       </a>
                       <p>
                         <a
                           href="events/online-live-q-a-chat-early-education.html"
-                          class="readmore"
+                          className="readmore"
                         >
                           Read more
                         </a>
                       </p>
                     </div>
                   </div>
-                  <div class="item-c item2">
-                    <div class="img-c">
+                  <div className="item-c item2">
+                    <div className="img-c">
                       <a href="events/online-live-q-a-chat-primary-school.html">
                         <div
                           className="zoomOut"
@@ -341,21 +340,21 @@ function Home() {
                         ></div>
                       </a>
                     </div>
-                    <div class="text-c">
+                    <div className="text-c">
                       <a href="events/online-live-q-a-chat-primary-school.html">
-                        <div class="outer">
-                          <div class="tag">Event</div>
+                        <div className="outer">
+                          <div className="tag">Event</div>
                           <h3>
                             Online live Q&amp;A chat: Primary School and
                             Admissions
                           </h3>
-                          <p class="date">23 Jan 2024</p>
+                          <p className="date">23 Jan 2024</p>
                         </div>
                       </a>
                       <p>
                         <a
                           href="events/online-live-q-a-chat-primary-school.html"
-                          class="readmore"
+                          className="readmore"
                         >
                           Read more
                         </a>
@@ -366,8 +365,8 @@ function Home() {
               </div>
             </div>
 
-            <div class="has-text-centered">
-              <a href="news-events.html" class="readmore">
+            <div className="has-text-centered">
+              <a href="news-events.html" className="readmore">
                 View All
               </a>
             </div>
@@ -375,11 +374,11 @@ function Home() {
         </div>
       </section>
 
-      <div class="social-wrap" data-social="">
-        <div class="container fadeInUp">
-          <div class="content">
-            <div class="left">
-              <div class="text-c">
+      <div className="social-wrap" data-social="">
+        <div className="container fadeInUp">
+          <div className="content">
+            <div className="left">
+              <div className="text-c">
                 <h2>Connect With Us</h2>
                 <p>
                   Join our learning journey by finding BBIS on your favourite
@@ -390,106 +389,106 @@ function Home() {
                     <a
                       href="https://www.facebook.com/BBISofficial"
                       target="_blank"
-                      class="icon-facebook"
+                      className="icon-facebook"
                     ></a>
                   </li>
                   <li>
                     <a
                       href="https://www.instagram.com/bbis_official/"
                       target="_blank"
-                      class="icon-instagram"
+                      className="icon-instagram"
                     ></a>
                   </li>
                   <li>
                     <a
                       href="https://twitter.com/BBISofficial"
                       target="_blank"
-                      class="icon-twitter"
+                      className="icon-twitter"
                     ></a>
                   </li>
                   <li>
                     <a
                       href="https://www.linkedin.com/company/bbis-berlin-brandenburg-international-school"
                       target="_blank"
-                      class="icon-linkedin"
+                      className="icon-linkedin"
                     ></a>
                   </li>
                   <li>
                     <a
                       href="https://www.youtube.com/channel/UCJQxGRWSuVtLbK6cU_LAs4Q"
                       target="_blank"
-                      class="icon-youtube"
+                      className="icon-youtube"
                     ></a>
                   </li>
                 </ul>
               </div>
-              <div id="socialtemplate1" class="is-hidden">
-                <div class="img-c">
-                  <a class="social-link zoomOut wowo image-box">
-                    <i class="social-icon"></i>
+              <div id="socialtemplate1" className="is-hidden">
+                <div className="img-c">
+                  <a className="social-link zoomOut wowo image-box">
+                    <i className="social-icon"></i>
                   </a>
                 </div>
               </div>
-              <div id="socialtemplate2" class="is-hidden">
-                <div class="right-socials">
-                  <a class="social-link">
-                    <div class="text-c">
-                      <i class="social-icon"></i>
-                      <p class="text-box"></p>
+              <div id="socialtemplate2" className="is-hidden">
+                <div className="right-socials">
+                  <a className="social-link">
+                    <div className="text-c">
+                      <i className="social-icon"></i>
+                      <p className="text-box"></p>
                     </div>
-                    <div class="img-c">
-                      <div class="zoomOut wowo image-box"></div>
+                    <div className="img-c">
+                      <div className="zoomOut wowo image-box"></div>
                     </div>
                   </a>
                 </div>
               </div>
             </div>
-            <div class="middle">
-              <div class="insta-posts"></div>
-              <div class="fb-posts"></div>
+            <div className="middle">
+              <div className="insta-posts"></div>
+              <div className="fb-posts"></div>
             </div>
-            <div class="right"></div>
+            <div className="right"></div>
           </div>
         </div>
       </div>
 
-      <div class="call-to-action">
-        <div class="content">
-          <div class="text-c fadeInUp">
+      <div className="call-to-action">
+        <div className="content">
+          <div className="text-c fadeInUp">
             <p>
               To learn more about our school and life at BBIS, get in touch
               today.
             </p>
             <ul>
-              <li class="active">
+              <li className="active">
                 <a href="javascript:void(0);">
-                  <i class="icon-tel"></i>ENQUIRE
+                  <i className="icon-tel"></i>ENQUIRE
                 </a>
               </li>
-              <li class="">
+              <li className="">
                 <a href="javascript:void(0);">
-                  <i class="icon-location"></i>VISIT
+                  <i className="icon-location"></i>VISIT
                 </a>
               </li>
-              <li class="">
+              <li className="">
                 <a href="javascript:void(0);">
-                  <i class="icon-enrol bbis"></i>ENROL
+                  <i className="icon-enrol bbis"></i>ENROL
                 </a>
               </li>
             </ul>
           </div>
-          <div class="right fadeInUp">
-            <div class="item-c" style={{ display: "block" }}>
-              <div class="img-c">
+          <div className="right fadeInUp">
+            <div className="item-c" style={{ display: "block" }}>
+              <div className="img-c">
                 <div
                   style={{
                     backgroundImage: `url('https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1FYXJseS1FZHVjYXRpb25cL0JCSVNfRWFybHlfRWR1Y2F0aW9uXzAxMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjoxMjAwLCJoZWlnaHQiOm51bGx9LCJxdWFsaXR5Ijo4Mn19')`,
                     backgroundPosition: "55.82% 45.79%",
                   }}
-                  class="zoomOut"
+                  className="zoomOut"
                 ></div>
               </div>
-              <div class="text2 darkbg">
+              <div className="text2 darkbg">
                 <p>Speak to our Admissions Team. Call us now.</p>
                 <p>
                   <a href="tel:+49 (0)33 203 80 36-0" target="">
@@ -498,8 +497,8 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div class="item-c">
-              <div class="img-c">
+            <div className="item-c">
+              <div className="img-c">
                 <div
                   style={{
                     backgroundImage: `url('https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1BZXJpYWwtUGhvdG8uanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJjZW50ZXIiLCJ3aWR0aCI6MTIwMCwiaGVpZ2h0IjpudWxsfSwicXVhbGl0eSI6ODJ9fQ==')`,
@@ -507,7 +506,7 @@ function Home() {
                   }}
                 ></div>
               </div>
-              <div class="text2 darkbg">
+              <div className="text2 darkbg">
                 <p>
                   The best way to discover if BBIS is right for you or your
                   child is to visit our 360,000 sqm campus, located in
@@ -523,8 +522,8 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div class="item-c">
-              <div class="img-c">
+            <div className="item-c">
+              <div className="img-c">
                 <div
                   style={{
                     backgroundImage: `url('https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeV9TY2hvb2xfMTIwLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjEyMDAsImhlaWdodCI6bnVsbH0sInF1YWxpdHkiOjgyfX0=')`,
@@ -532,7 +531,7 @@ function Home() {
                   }}
                 ></div>
               </div>
-              <div class="text2 darkbg">
+              <div className="text2 darkbg">
                 <p>Start your application.</p>
                 <p>
                   <a href="https://bbis.openapply.com/" target="_blank">

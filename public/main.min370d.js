@@ -11633,7 +11633,9 @@
           0 === e.slideCount
             ? i('<div className="slick-track"/>').appendTo(e.$slider)
             : e.$slides.wrapAll('<div className="slick-track"/>').parent()),
-        (e.$list = e.$slideTrack.wrap('<div className="slick-list"/>').parent()),
+        (e.$list = e.$slideTrack
+          .wrap('<div className="slick-list"/>')
+          .parent()),
         e.$slideTrack.css("opacity", 0),
         (!0 !== e.options.centerMode && !0 !== e.options.swipeToSlide) ||
           (e.options.slidesToScroll = 1),
@@ -28031,7 +28033,9 @@ Prerequisite: the object being mixed into needs to be a *Grid*
               return (
                 "<" +
                 this.fillSegTag +
-                (classes.length ? ' className="' + classes.join(" ") + '"' : "") +
+                (classes.length
+                  ? ' className="' + classes.join(" ") + '"'
+                  : "") +
                 (css ? ' style="' + css + '"' : "") +
                 "></" +
                 this.fillSegTag +
@@ -32363,9 +32367,9 @@ Options:
                   el.toggleClass("fc-rtl", opts.isRTL);
                 }
               );
-              this.contentEl = $("<div className='fc-view-container'>").prependTo(
-                el
-              );
+              this.contentEl = $(
+                "<div className='fc-view-container'>"
+              ).prependTo(el);
               this.initToolbars();
               this.renderHeader();
               this.renderFooter();
@@ -32446,9 +32450,9 @@ Options:
                 this.bindViewHandlers(newView);
                 newView.startBatchRender(); // so that setElement+setDate rendering are joined
                 newView.setElement(
-                  $("<div className='fc-view fc-" + viewType + "-view'>").appendTo(
-                    this.contentEl
-                  )
+                  $(
+                    "<div className='fc-view fc-" + viewType + "-view'>"
+                  ).appendTo(this.contentEl)
                 );
                 this.toolbarsManager.proxyCall("activateButton", viewType);
               }
@@ -34617,7 +34621,9 @@ Options:
             // Affects content-skeleton, helper-skeleton, highlight-skeleton for both the time-grid and day-grid.
             renderIntroHtml: function () {
               var view = this.view;
-              return '<td className="fc-axis" ' + view.axisStyleAttr() + "></td>";
+              return (
+                '<td className="fc-axis" ' + view.axisStyleAttr() + "></td>"
+              );
             },
           };
           // Will customize the rendering behavior of the AgendaView's dayGrid
@@ -34642,7 +34648,9 @@ Options:
             // Affects content-skeleton, helper-skeleton, highlight-skeleton for both the time-grid and day-grid.
             renderIntroHtml: function () {
               var view = this.view;
-              return '<td className="fc-axis" ' + view.axisStyleAttr() + "></td>";
+              return (
+                '<td className="fc-axis" ' + view.axisStyleAttr() + "></td>"
+              );
             },
           };
           function groupEventFootprintsByAllDay(eventFootprints) {
@@ -35867,7 +35875,9 @@ Does not own rendering. Use for low-level util methods by TimeGrid.
                     seg = levelSegs[j];
                     emptyCellsUntil(seg.leftCol);
                     // create a container that occupies or more columns. append the event element.
-                    td = $('<td className="fc-event-container">').append(seg.el);
+                    td = $('<td className="fc-event-container">').append(
+                      seg.el
+                    );
                     if (seg.leftCol !== seg.rightCol) {
                       td.attr("colspan", seg.rightCol - seg.leftCol + 1);
                     } else {
@@ -39037,11 +39047,15 @@ moment.tz.link(moment_links);
           }
           if (!hasEvents) {
             // no events
-            $calendarContent.html('<div className="dsmcal-empty">No events</div>');
+            $calendarContent.html(
+              '<div className="dsmcal-empty">No events</div>'
+            );
           }
         } else {
           // no events
-          $calendarContent.html('<div className="dsmcal-empty">No events</div>');
+          $calendarContent.html(
+            '<div className="dsmcal-empty">No events</div>'
+          );
         }
         $calendar.append($calendarContent);
       }
@@ -39647,8 +39661,6 @@ var digistormWeb = {
         }
       });
   },
-
-  
 
   slick: function () {
     // initialise banners
@@ -40372,8 +40384,6 @@ var digistormWeb = {
     });
   },
 
- 
-
   popups: function () {
     $(".action-modal").each(function () {
       var modal = $(this);
@@ -40732,8 +40742,6 @@ var digistormWeb = {
     });
   },
 
-
-
   read_more: function () {
     var maxLength = 150;
     $(".show-read-more").each(function () {
@@ -41088,8 +41096,8 @@ jQuery(document).ready(function ($) {
       $(".form-wrap select:not([multiple])")
         .parents(".control")
         .append("<span className='iconfont icon-bottom'></span>");
-      var unSelected = "#0A193F";
-      var selected = "#0A193F";
+      var unSelected = "#b38006";
+      var selected = "#b38006";
       $(function () {
         $(".form-wrap select:not([multiple])").css("color", unSelected);
         $(".form-wrap select:not([multiple])").change(function () {

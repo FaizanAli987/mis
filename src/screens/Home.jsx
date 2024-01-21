@@ -7,7 +7,8 @@ function Home() {
   return (
     <>
     <Header/>
-    
+    <main>
+
       <section className="global-banners home-banners">
         <div className="container is-fluid">
           <div className="banners video-carousel">
@@ -53,7 +54,7 @@ function Home() {
       </section>
 
       <section className="home-guide">
-        <div className="content fadeInUp">
+        <div className="content w-100 fadeInUp">
           <div className="text-box darkbg">
             <h1>MIS IS A LEADING INTERNATIONAL DAY SCHOOL</h1>
             <p>
@@ -543,7 +544,7 @@ function Home() {
           </div>
         </div>
       </div>
-
+      </main>
     <Footer/>
     </>
   );

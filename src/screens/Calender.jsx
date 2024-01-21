@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from './../../components/main/Header';
 import Footer from './../../components/main/Footer';
+import SectionBanner from '../../components/main/SectionBanner';
 
-const schcounselling = () => {
+function Calender() {
   return (
-    <>
-    <Header />
-    <Footer />
-    </>
+    <div>
+      
+    </div>
   )
 }
 
-export default schcounselling
+export default Calender

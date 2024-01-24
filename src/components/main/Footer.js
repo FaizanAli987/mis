@@ -11,21 +11,17 @@ function Footer() {
               <i className="icon-arrow"></i>
             </div>
             <a href="https://ibo.org/" target="_blank" className="brand">
-              <span style={{ backgroundImage: "url(img/logo-1.png)" }}></span>
+              <span style={{ backgroundImage: "url(/logo.svg)" }}></span>
             </a>
-            <div className="img-c">
-              <div style={{ backgroundImage: "url(img/logo-1.svg)" }}>
-                <Link to="/"></Link>
-              </div>
-            </div>
+
             <div className="text1">
               <p>MIS Mariya International Schools</p>
             </div>
             <div className="text2">
-              <p>MIS Mariya International Schools</p>
+             
               <div className="info">
                 <p>
-                  <Link to="#" >
+                  <Link to="#">
                     <i className="icon-location"></i>
                     <span>King Fahd Industrial Port, Al Jubail 31951</span>
                   </Link>

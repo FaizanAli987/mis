@@ -56,7 +56,7 @@ render(
         <AppProcess />
       </Route>
 
-      <Route exact path="/studentsupport">
+      <Route exact path="/student-support">
         <StudentSupport />
       </Route>
     

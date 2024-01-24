@@ -1,234 +1,85 @@
-import React from 'react'
-import Header from '../../components/main/Header'
-import Footer from '../../components/main/Footer'
-import SectionBanner from '../../components/main/SectionBanner'
+import React from "react";
+import Header from "../../components/main/Header";
+import Footer from "../../components/main/Footer";
+import SectionBanner from "../../components/main/SectionBanner";
 
 function FutureDev() {
   return (
     <>
-    <Header />
-    <SectionBanner
-      imglink="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJU0NhbXB1c18yLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjI0MDAsImhlaWdodCI6bnVsbH0sInF1YWxpdHkiOjgyfX0="
-      link1="About Us"
-      link2="Future Developments"
-    />
+      <Header />
+      <SectionBanner
+        imglink="https://mariyaschools.com/wp-content/uploads/2023/09/IMG_6923-scaled.jpg"
+        link1="About Us"
+        link2="Future Developments"
+      />
 
-    <section class="guide-wrap">
-      <div class="container fadeInUp">
-        <div class="columns is-centered">
-          <div class="column is-10-desktop is-10-tablet is-12-mobile">
-            <div class="content has-text-centered">
-              <h1>FUTURE DEVELOPMENTS
-</h1>
-              <p class="text-body">
-              We invest in ongoing upgrades, new buildings and renovations across the BBIS campus.
-              </p>
+      <section class="guide-wrap">
+        <div class="container fadeInUp">
+          <div class="columns is-centered">
+            <div class="column is-10-desktop is-10-tablet is-12-mobile">
+              <div class="content has-text-centered">
+                <h1>FUTURE DEVELOPMENTS</h1>
+                <p class="text-body">
+                  We invest in ongoing upgrades, new buildings and renovations
+                  across the MIS campus.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="editor-wrap">
-      <div class="container fadeInUp">
-        <div class="columns is-centered">
-          <div class="column is-8-desktop is-10-tablet is-12-mobile">
-            <div class="content">
-              <p>
-                At BBIS, we are committed to teaching students how to use
-                technology responsibly and creatively. We believe that
-                technology is a powerful tool for solving problems and
-                creating new possibilities, but it is also important to
-                understand its potential risks and ethical considerations.
-                With this in mind, we focus strongly on digital citizenship,
-                and draw on the Common Sense Media curriculum to support
-                students, staff and families.
-                <br />
-              </p>
-              <h2>
-                STEM IS A TOP PRIORITY
-                <br />
-              </h2>
-              <p>
-                Promoting STEM education is a top priority at BBIS. Doing so
-                empowers our students to make a positive impact on the world
-                around them and contribute to the advancement of science and
-                technology. To encourage this, our students can participate in
-                a range of tech-related extra-curricular activities, like
-                World Robot Olympiad, Coding Club, STEM Club and Minecraft.
-              </p>
-              <h2>TECH IN THE CLASSROOM</h2>
-              <p>
-                We bring technology into the classroom in many ways – from 3D
-                printers and virtual reality headsets, to coding tools and the
-                very latest in educational robotics. All classrooms are
-                equipped with cutting-edge technologies such as smart boards
-                and Apple TVs, providing unparalleled learning experiences for
-                our students.{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="gallery-wrap layout-panel">
-      <div class="container fadeInUp">
-        <div class="columns is-centered">
-          <div class="column is-8-desktop is-10-tablet is-12-mobile">
-            <div class="gallery-box">
-              <ul>
-                <li class="">
-                  <a
-                    href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1QcmltYXJ5LVNjaG9vbFwvQkJJUy1QcmltYXJ5LVNjaG9vbC01NDQ4LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjEyMDAsImhlaWdodCI6NjMwfSwicXVhbGl0eSI6ODJ9fQ=="
-                    style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1QcmltYXJ5LVNjaG9vbFwvQkJJUy1QcmltYXJ5LVNjaG9vbC01NDQ4LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDB9LCJxdWFsaXR5Ijo4Mn19`, backgroundPosition: "50% 50%",}}
-                    data-caption="<strong>BBIS Primary School</strong>"
-                  ></a>
-                </li>
-                <li class="">
-                  <a
-                    href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJU19FZHVjYXRpb25hbF9UZWNobm9sb2d5XzUzMS5KUEciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMH0sInF1YWxpdHkiOjgyfX0="
-                    style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJU19FZHVjYXRpb25hbF9UZWNobm9sb2d5XzUzMS5KUEciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjo2MDAsImhlaWdodCI6NjAwfSwicXVhbGl0eSI6ODJ9fQ==)`, backgroundPosition: "50% 50%"}}
-                    data-caption="<strong>BBIS Educational Technology</strong>"
-                  ></a>
-                </li>
-                <li class="">
-                  <a
-                    href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1QcmltYXJ5LVNjaG9vbFwvQkJJUy1QcmltYXJ5LVNjaG9vbC01NTQxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjEyMDAsImhlaWdodCI6NjMwfSwicXVhbGl0eSI6ODJ9fQ=="
-                    style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1QcmltYXJ5LVNjaG9vbFwvQkJJUy1QcmltYXJ5LVNjaG9vbC01NTQxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDB9LCJxdWFsaXR5Ijo4Mn19)`, backgroundPosition: "50% 50%"}}
-                    data-caption="<strong>BBIS Primary School</strong>"
-                  ></a>
-                </li>
-                <li class="">
-                  <a
-                    href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJU19FZHVjYXRpb25hbF9UZWNobm9sb2d5XzUzOTQuSlBHIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJjZW50ZXIiLCJ3aWR0aCI6MTIwMCwiaGVpZ2h0Ijo2MzB9LCJxdWFsaXR5Ijo4Mn19"
-                    style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJU19FZHVjYXRpb25hbF9UZWNobm9sb2d5XzUzOTQuSlBHIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJjZW50ZXIiLCJ3aWR0aCI6NjAwLCJoZWlnaHQiOjYwMH0sInF1YWxpdHkiOjgyfX0=)`, backgroundPosition: "50% 50%",}}
-                    data-caption="<strong>BBIS Educational Technology</strong>"
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="editor-wrap">
-      <div class="container fadeInUp">
-        <div class="columns is-centered">
-          <div class="column is-8-desktop is-10-tablet is-12-mobile">
-            <div class="content">
-              <h2>TECH ACROSS THE CURRICULUM</h2>
-              <p>
-                Technology is embraced across many areas of the curriculum.
-                For example:
-              </p>
+      <section class="editor-wrap">
+        <div class="container fadeInUp">
+          <div class="columns is-centered">
+            <div class="column is-8-desktop is-10-tablet is-12-mobile">
+              <div class="content">
+                <p>
+                At MIS Mariya International Schools, we are committed to providing a dynamic and innovative learning environment that prepares students for the challenges and opportunities of the future. Our vision extends beyond the present, and we are excited to share some of the upcoming developments that will shape the future of education at MIS Mariya International Schools
+                  <br />
+                  <br/>
+                </p>
+              <img style={{marginBottom:"40px"}} src="https://mariyaschools.com/wp-content/uploads/2023/09/IMG_7062-scaled.jpg"/>
+           
+            <ul>
 
-              <ul>
-                <li>
-                  Science laboratories are equipped with a wide range of
-                  modern data logging equipment, digital data analysis tools,
-                  microscopes and more traditional lab equipment. iPads are
-                  also provided for use with FLIR infra-red cameras, to
-                  conduct video analysis of various phenomena and access a
-                  wide range of school approved applications.
-                </li>
-                <li>
-                  Design and Technology classrooms include computer-aided
-                  design (CAD) software and workshops equipped with machinery
-                  and woodworking tools, electronics, 3D printer and laser
-                  cutter. We also offer robotics and programming lessons where
-                  students can learn programming languages such as HTML, CSS
-                  and Python.{" "}
-                </li>
-                <li>
-                  Music labs are equipped with iMacs and music production
-                  software, which allow students to compose, record, edit and
-                  mix their own music.{" "}
-                </li>
-                <li>
-                  Our podcast studio is equipped with professional-grade
-                  microphones and soundproofing materials.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="gallery-wrap layout-panel">
-      <div class="container fadeInUp">
-        <div class="columns is-centered">
-          <div class="column is-8-desktop is-10-tablet is-12-mobile">
-            <div class="gallery-box">
-              <ul>
-                <li class="">
-                  <a
-                    href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeS1TY2hvb2wtNjgxOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMH0sInF1YWxpdHkiOjgyfX0="
-                    style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeS1TY2hvb2wtNjgxOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjo2MDAsImhlaWdodCI6NjAwfSwicXVhbGl0eSI6ODJ9fQ==)`, backgroundPosition: "50% 50%"}}
-                    data-caption="<strong>BBIS Secondary School</strong>"
-                  ></a>
-                </li>
-                <li class="">
-                  <a
-                    href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeV9TY2hvb2xfNDQ3LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjEyMDAsImhlaWdodCI6NjMwfSwicXVhbGl0eSI6ODJ9fQ=="
-                    style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeV9TY2hvb2xfNDQ3LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDB9LCJxdWFsaXR5Ijo4Mn19)`, backgroundPosition: "50% 50%",}}
-                    data-caption="<strong>BBIS Secondary School</strong>"
-                  ></a>
-                </li>
-                <li class="">
-                  <a
-                    href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1FZHVjYXRpb25hbC1UZWNobm9sb2d5Mi5KUEciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMH0sInF1YWxpdHkiOjgyfX0="
-                    style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1FZHVjYXRpb25hbC1UZWNobm9sb2d5Mi5KUEciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjo2MDAsImhlaWdodCI6NjAwfSwicXVhbGl0eSI6ODJ9fQ==)`, backgroundPosition: "50% 50%",}}
-                    data-caption="<strong>BBIS Educational Technology</strong>"
-                  ></a>
-                </li>
-                <li class="">
-                  <a
-                    href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeS1TY2hvb2wtODEzNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InJpZ2h0Iiwid2lkdGgiOjEyMDAsImhlaWdodCI6NjMwfSwicXVhbGl0eSI6ODJ9fQ=="
-                    style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeS1TY2hvb2wtODEzNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InJpZ2h0Iiwid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDB9LCJxdWFsaXR5Ijo4Mn19)`, backgroundPosition: "76.13% 41.39%",}}
-                    data-caption="<strong>BBIS Secondary School</strong>"
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="editor-wrap">
-      <div class="container fadeInUp">
-        <div class="columns is-centered">
-          <div class="column is-8-desktop is-10-tablet is-12-mobile">
-            <div class="content">
-              <h2>DIGITAL PLATFORMS AVAILABLE TO STUDENTS</h2>
-              <ul>
-                <li>
-                  Google Suite used as a collaborative platform cross the
-                  school
-                </li>
-                <li>Managebac as a learning management system</li>
-                <li>
-                  iSams used across the school as information management
-                  system
-                </li>
-                <li>1:1 iPad programme in the Primary School</li>
-                <li>
-                  SeeSaw used for progressive reporting in our Primary School
-                </li>
-                <li>
-                  BYOD (Bring Your Own Devices) programme in our Secondary
-                  School
-                </li>
-                <li>Kognity and CENTURY as digital learning resources</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            <li>
 
-    <Footer />
-  </>
-  )
+Embracing the latest advancements in technology, we are investing in cutting-edge tools and platforms to enhance the learning experience. Virtual reality (VR), augmented reality (AR), and artificial intelligence (AI) will be seamlessly integrated into our curriculum, fostering a more interactive and immersive educational journey for our students.
+</li>
+<li>
+
+Recognizing the importance of global perspectives, we are actively exploring partnerships and collaborations with international schools and institutions. This will open doors for exchange programs, joint projects, and cultural exchanges, providing our students with a broader worldview and enriching their educational experience.
+
+
+</li>
+<li>
+To nurture the next generation of innovators, MIS Mariya International Schools will be placing a strong emphasis on Science, Technology, Engineering, and Mathematics (STEM) education. State-of-the-art innovation labs will be established, providing students with hands-on experiences and encouraging creative problem-solving.
+
+
+</li>
+<li>
+Understanding that each student is unique, we are working on developing personalized learning pathways. Adaptive learning platforms and tailored educational plans will cater to individual strengths, interests, and learning styles, ensuring that every student reaches their full potential.
+
+
+</li>
+<li>
+In alignment with global efforts towards sustainability, MIS Mariya International Schools will undertake initiatives to promote environmental consciousness. From eco-friendly campus designs to curriculum elements focused on sustainability, we aim to instill a sense of responsibility and environmental stewardship in our students.
+
+
+</li>
+            </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+   
+
+
+      <Footer />
+    </>
+  );
 }
 
-export default FutureDev
+export default FutureDev;

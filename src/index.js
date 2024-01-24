@@ -12,26 +12,15 @@ import OurCampus from "./screens/about/OurCampus";
 import OurMission from "./screens/about/OurMission";
 import Admission from "./screens/admissions";
 import AppProcess from './screens/admissions/AppProcess';
-import SchoolFees from "./screens/admissions/SchoolFees";
-import BusService from "./screens/admissions/BusService";
+import News from "./screens/newsEvents"
+
 // import Faqs from "./screens/admissions/Faqs";
 import StudentSupport from "./screens/studentsupport";
-import SchoolCounselling from "./screens/studentsupport/SchoolCounselling";
-import HealthService from "./screens/studentsupport/HealthService";
-import LearningSupport from "./screens/studentsupport/LearningSupport";
+
 import Cocurricular from "./screens/cocurricular";
-import SportsAtheletics from './screens/cocurricular/SportsAtheletics';
-import StudentLeadership from './screens/cocurricular/StudentLeadership';
 import OurSchool from './screens/ourschools';
 import PrimarySchool from './screens/ourschools/Primaryschool';
-import EarlyEducation from './screens/ourschools/Primaryschool/EarlyEducation';
-import LowerGrades from './screens/ourschools/Primaryschool/LowerGrades';
 import SecondarySchool from './screens/ourschools/Secondaryschool';
-import HigherGrades from './screens/ourschools/Secondaryschool/HigherGrades';
-import MiddleYear from './screens/ourschools/Secondaryschool/MiddleYear';
-
-
-
 
 
 const rootElement = document.getElementById("root");
@@ -60,63 +49,37 @@ render(
       <Route exact path="/about-us/our-mission">
         <OurMission />
       </Route>
-      <Route exact path="/admission">
+      <Route exact path="/admissions">
         <Admission />
       </Route>
-      <Route exact path="/admission/application-process">
+      <Route exact path="/admissions/application-process">
         <AppProcess />
       </Route>
-      <Route exact path="/admission/school-fees">
-        <SchoolFees />
-      </Route>
-      <Route exact path="/admission/bus-service">
-        <BusService />
-      </Route>
-      {/* <Route exact path="/admission/faqs">
-        <Faqs />
-      </Route> */}
+
       <Route exact path="/studentsupport">
         <StudentSupport />
       </Route>
-      <Route exact path="/studentsupport/SchoolCounselling">
-        <SchoolCounselling />
-      </Route>
-      <Route exact path="/studentsupport/LearningSupport">
-        <LearningSupport />
-      </Route>
-      <Route exact path="/studentsupport/HealthService">
-        <HealthService />
-      </Route>
-      <Route exact path="/cocurricular">
+    
+      <Route exact path="/co-curricular">
         <Cocurricular />
       </Route>
-      <Route exact path="/cocurricular/SportsAtheletics">
-        <SportsAtheletics />
-      </Route>
-      <Route exact path ="/cocurricular/StudentLeadership">
-        <StudentLeadership />
-      </Route>
-      <Route exact path ="/ourschools">
+  
+      <Route exact path ="/our-schools">
         <OurSchool />
       </Route>
-      <Route exact path ="/ourschools/Primaryschool">
+      <Route exact path ="/our-schools/primary-school">
         <PrimarySchool />
       </Route>
-      <Route exact path ="/ourschools/Primaryschool/EarlyEducation">
-        <EarlyEducation />
-      </Route>
-      <Route exact path ="/ourschools/Primaryschool/LowerGrades">
-        <LowerGrades />
-      </Route>
-      <Route exact path ="/ourschools/Secondaryschool">
+   
+    
+      <Route exact path ="/our-schools/secondary-school">
         <SecondarySchool />
       </Route>
-      <Route exact path ="/ourschools/Secondaryschool/HigherGrades">
-        <HigherGrades />
+    
+      <Route exact path ="/news-events">
+        <News />
       </Route>
-      <Route exact path ="/ourschools/Secondaryschool/MiddleYear">
-        <MiddleYear />
-      </Route>
+    
     </Switch>
   </BrowserRouter>,
   rootElement

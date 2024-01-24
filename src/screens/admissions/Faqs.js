@@ -1,7 +1,7 @@
-import React from 'react'
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
-import SectionBanner from '../../components/SectionBanner'
+import React from "react";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import SectionBanner from "../../components/SectionBanner";
 
 function Faqs() {
   return (
@@ -81,29 +81,41 @@ function Faqs() {
                   <li class="">
                     <a
                       href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1QcmltYXJ5LVNjaG9vbFwvQkJJUy1QcmltYXJ5LVNjaG9vbC01NDQ4LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjEyMDAsImhlaWdodCI6NjMwfSwicXVhbGl0eSI6ODJ9fQ=="
-                      style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1QcmltYXJ5LVNjaG9vbFwvQkJJUy1QcmltYXJ5LVNjaG9vbC01NDQ4LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDB9LCJxdWFsaXR5Ijo4Mn19`, backgroundPosition: "50% 50%",}}
-                      data-caption="<strong>BBIS Primary School</strong>"
+                      style={{
+                        backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1QcmltYXJ5LVNjaG9vbFwvQkJJUy1QcmltYXJ5LVNjaG9vbC01NDQ4LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDB9LCJxdWFsaXR5Ijo4Mn19`,
+                        backgroundPosition: "50% 50%",
+                      }}
+                      data-caption="<strong>MIS Primary School</strong>"
                     ></a>
                   </li>
                   <li class="">
                     <a
                       href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJU19FZHVjYXRpb25hbF9UZWNobm9sb2d5XzUzMS5KUEciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMH0sInF1YWxpdHkiOjgyfX0="
-                      style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJU19FZHVjYXRpb25hbF9UZWNobm9sb2d5XzUzMS5KUEciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjo2MDAsImhlaWdodCI6NjAwfSwicXVhbGl0eSI6ODJ9fQ==)`, backgroundPosition: "50% 50%"}}
-                      data-caption="<strong>BBIS Educational Technology</strong>"
+                      style={{
+                        backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJU19FZHVjYXRpb25hbF9UZWNobm9sb2d5XzUzMS5KUEciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjo2MDAsImhlaWdodCI6NjAwfSwicXVhbGl0eSI6ODJ9fQ==)`,
+                        backgroundPosition: "50% 50%",
+                      }}
+                      data-caption="<strong>MIS Educational Technology</strong>"
                     ></a>
                   </li>
                   <li class="">
                     <a
                       href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1QcmltYXJ5LVNjaG9vbFwvQkJJUy1QcmltYXJ5LVNjaG9vbC01NTQxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjEyMDAsImhlaWdodCI6NjMwfSwicXVhbGl0eSI6ODJ9fQ=="
-                      style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1QcmltYXJ5LVNjaG9vbFwvQkJJUy1QcmltYXJ5LVNjaG9vbC01NTQxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDB9LCJxdWFsaXR5Ijo4Mn19)`, backgroundPosition: "50% 50%"}}
-                      data-caption="<strong>BBIS Primary School</strong>"
+                      style={{
+                        backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1QcmltYXJ5LVNjaG9vbFwvQkJJUy1QcmltYXJ5LVNjaG9vbC01NTQxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDB9LCJxdWFsaXR5Ijo4Mn19)`,
+                        backgroundPosition: "50% 50%",
+                      }}
+                      data-caption="<strong>MIS Primary School</strong>"
                     ></a>
                   </li>
                   <li class="">
                     <a
                       href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJU19FZHVjYXRpb25hbF9UZWNobm9sb2d5XzUzOTQuSlBHIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJjZW50ZXIiLCJ3aWR0aCI6MTIwMCwiaGVpZ2h0Ijo2MzB9LCJxdWFsaXR5Ijo4Mn19"
-                      style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJU19FZHVjYXRpb25hbF9UZWNobm9sb2d5XzUzOTQuSlBHIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJjZW50ZXIiLCJ3aWR0aCI6NjAwLCJoZWlnaHQiOjYwMH0sInF1YWxpdHkiOjgyfX0=)`, backgroundPosition: "50% 50%",}}
-                      data-caption="<strong>BBIS Educational Technology</strong>"
+                      style={{
+                        backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJU19FZHVjYXRpb25hbF9UZWNobm9sb2d5XzUzOTQuSlBHIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJjZW50ZXIiLCJ3aWR0aCI6NjAwLCJoZWlnaHQiOjYwMH0sInF1YWxpdHkiOjgyfX0=)`,
+                        backgroundPosition: "50% 50%",
+                      }}
+                      data-caption="<strong>MIS Educational Technology</strong>"
                     ></a>
                   </li>
                 </ul>
@@ -164,29 +176,41 @@ function Faqs() {
                   <li class="">
                     <a
                       href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeS1TY2hvb2wtNjgxOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMH0sInF1YWxpdHkiOjgyfX0="
-                      style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeS1TY2hvb2wtNjgxOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjo2MDAsImhlaWdodCI6NjAwfSwicXVhbGl0eSI6ODJ9fQ==)`, backgroundPosition: "50% 50%"}}
-                      data-caption="<strong>BBIS Secondary School</strong>"
+                      style={{
+                        backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeS1TY2hvb2wtNjgxOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjo2MDAsImhlaWdodCI6NjAwfSwicXVhbGl0eSI6ODJ9fQ==)`,
+                        backgroundPosition: "50% 50%",
+                      }}
+                      data-caption="<strong>MIS Secondary School</strong>"
                     ></a>
                   </li>
                   <li class="">
                     <a
                       href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeV9TY2hvb2xfNDQ3LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjEyMDAsImhlaWdodCI6NjMwfSwicXVhbGl0eSI6ODJ9fQ=="
-                      style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeV9TY2hvb2xfNDQ3LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDB9LCJxdWFsaXR5Ijo4Mn19)`, backgroundPosition: "50% 50%",}}
-                      data-caption="<strong>BBIS Secondary School</strong>"
+                      style={{
+                        backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeV9TY2hvb2xfNDQ3LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDB9LCJxdWFsaXR5Ijo4Mn19)`,
+                        backgroundPosition: "50% 50%",
+                      }}
+                      data-caption="<strong>MIS Secondary School</strong>"
                     ></a>
                   </li>
                   <li class="">
                     <a
                       href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1FZHVjYXRpb25hbC1UZWNobm9sb2d5Mi5KUEciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMH0sInF1YWxpdHkiOjgyfX0="
-                      style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1FZHVjYXRpb25hbC1UZWNobm9sb2d5Mi5KUEciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjo2MDAsImhlaWdodCI6NjAwfSwicXVhbGl0eSI6ODJ9fQ==)`, backgroundPosition: "50% 50%",}}
-                      data-caption="<strong>BBIS Educational Technology</strong>"
+                      style={{
+                        backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1FZHVjYXRpb25hbC1UZWNobm9sb2d5Mi5KUEciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6ImNlbnRlciIsIndpZHRoIjo2MDAsImhlaWdodCI6NjAwfSwicXVhbGl0eSI6ODJ9fQ==)`,
+                        backgroundPosition: "50% 50%",
+                      }}
+                      data-caption="<strong>MIS Educational Technology</strong>"
                     ></a>
                   </li>
                   <li class="">
                     <a
                       href="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeS1TY2hvb2wtODEzNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InJpZ2h0Iiwid2lkdGgiOjEyMDAsImhlaWdodCI6NjMwfSwicXVhbGl0eSI6ODJ9fQ=="
-                      style={{backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeS1TY2hvb2wtODEzNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InJpZ2h0Iiwid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDB9LCJxdWFsaXR5Ijo4Mn19)`, backgroundPosition: "76.13% 41.39%",}}
-                      data-caption="<strong>BBIS Secondary School</strong>"
+                      style={{
+                        backgroundImage: `url(https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1TZWNvbmRhcnktU2Nob29sXC9CQklTLVNlY29uZGFyeS1TY2hvb2wtODEzNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InJpZ2h0Iiwid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDB9LCJxdWFsaXR5Ijo4Mn19)`,
+                        backgroundPosition: "76.13% 41.39%",
+                      }}
+                      data-caption="<strong>MIS Secondary School</strong>"
                     ></a>
                   </li>
                 </ul>
@@ -232,4 +256,4 @@ function Faqs() {
   );
 }
 
-export default Faqs
+export default Faqs;

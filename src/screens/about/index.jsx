@@ -9,7 +9,7 @@ const index = () => {
       <Header />
 
       <SectionBanner
-        imglink="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1QcmltYXJ5LVNjaG9vbFwvQkJJUy1QcmltYXJ5LVNjaG9vbC01Mzg5LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiY2VudGVyIiwid2lkdGgiOjI0MDAsImhlaWdodCI6bnVsbH0sInF1YWxpdHkiOjgyfX0="
+        imglink="https://mariyaschools.com/wp-content/uploads/2023/09/C1_03217-scaled.jpg"
         link1="About Us"
       />
 
@@ -20,9 +20,8 @@ const index = () => {
               <div class="content has-text-centered">
                 <h1>About us</h1>
                 <p class="text-body">
-                  A warm, welcoming school environment where students gain
-                  access to a world-leading International Baccalaureate
-                  education.
+                Mariya International Schools is a British Council partner school, Cambridge International School and is accredited by the British council, ISO and Cognia.
+
                 </p>
               </div>
             </div>
@@ -36,20 +35,29 @@ const index = () => {
               <div class="content">
                 <h2>WELCOME</h2>
                 <p>
-                  Welcome to BBIS Berlin Brandenburg International School, a
-                  place where students are empowered to reach their unique
-                  potential and thrive on a global stage.
+                Mariya International Schools (MIS) was founded in 2007 in the city of Jubail,
+Eastern Province of the Kingdom of Saudi Arabia. The schools was initiated to
+cater for the massively growing Expatriate Community of Jubail Industrial City.
+
+
                   <br />
                 </p>
                 <p dir="ltr">
-                  As one of the world’s leading International Baccalaureate (IB)
-                  schools, BBIS proudly offers three IB programmes in the
-                  Primary, Middle and Diploma years of schooling to students
-                  from over 70 countries, as well as a huge range of
-                  extra-curricular activities. Inclusive, diverse and expansive,
-                  we’re here to help each student discover and develop their
-                  passions in a warm and welcoming environment.
-                  <br />
+                Mariya International School Jubail ranges from Kg’s, Grades 1-9 in both girls and
+Boys section.
+The beginnings of the schools were really humble. Only 43 students with a
+handful of teachers and admin staff, six rooms in a building and a small play area,
+were the constituents of the schools. Once the schools was licensed by the
+ministry of education, KSA, it started to grow exponentially. In the last three
+years, the schools has relocated in the newly built campus consisting of three
+huge buildings covering an area of over 5000 sq. Meters. According to the
+Ministry of Education KSA regulations, there are separate buildings for Boys,
+Girls and Admin sections. Each of the boys’ and girls’ section building was
+designed and built to provide ergonomically safe and healthy environment for the
+students. Over 64 classrooms, 4 Science Labs, 4 Computers’ Labs, Library,
+Audio-Visual (AV) rooms, 2 indoor play areas and 2 outdoor play areas are the
+main facilities in the schools. 
+                  
                 </p>
               </div>
             </div>
@@ -62,83 +70,38 @@ const index = () => {
           <div class="columns is-centered">
             <div class="column is-8-desktop is-10-tablet is-12-mobile">
               <div class="content">
-                <h3>NURTURING COMPASSIONATE GLOBAL CITIZENS</h3>
-                <p dir="ltr">
-                  While English is our language of instruction, BBIS is a truly
-                  international school.
-                </p>
-                <p>
-                  Our students hail from families who come from across the globe
-                  and share our values of humanity, tolerance and empathy.
-                  Together, we are building a caring, internationally minded
-                  community of students, teachers and alumni – people who truly
-                  have the potential to leave a positive mark on our world.
-                </p>
                 <h3>DELIVERING INCLUSIVE EDUCATION</h3>
                 <p>
-                  Every year, we welcome around 780 day students and around 80
-                  boarding students, from 3 to 19 years of age. These students
-                  spend their days developing invaluable, life-long skills like
-                  critical thinking, languages and intercultural competencies
-                  across our early education, primary and secondary areas:
-                  <br />
-                  <br />
+
+                The school has a huge, all indoors, Multi-purpose hall which is shared by both of
+the sections. A huge size outdoor playground in the Girls’ section and a smaller
+outdoor playground for the boys’ section is another feature of the schools.
+Football (soccer) is the main sport within the schools, yet physical education,
+basketball and cricket are also promoted and encouraged among the students.
+
+
+                
                 </p>
-                <ul>
-                  <li>
-                    From ages 3-6, children join our early education community
-                  </li>
-                  <li>
-                    From ages 6-11, students join Grades 1 to 5 to pursue the{" "}
-                    <a href="our-schools/primary-school/ib-primary-years-programme.html">
-                      IB Primary Years Programme
-                    </a>
-                    <br />
-                  </li>
-                  <li>
-                    From ages 11-19, students join our secondary school to
-                    pursue the{" "}
-                    <a href="our-schools/secondary-school/ib-middle-years-programme.html">
-                      IB Middle Years Programme
-                    </a>{" "}
-                    and{" "}
-                    <a href="our-schools/secondary-school/ib-diploma-programme.html">
-                      IB Diploma Programme
-                    </a>
-                  </li>
-                </ul>
-                <p dir="ltr">
-                  In all of these programmes, we encourage students to be
-                  courageous and explore new opportunities, fostering a
-                  pioneering spirit that will help them succeed, no matter what
-                  the future holds.
-                </p>
-                <h3>CREATING A SAFE AND HAPPY SPACE FOR STUDENTS</h3>
-                <p>
-                  Our overarching goal at BBIS is to help students become happy,
-                  well-rounded humans.
-                </p>
-                <p dir="ltr">
-                  Our classes are small – usually with fewer than 20 students –
-                  so that everyone receives individual attention and support.
-                  Beyond the classroom, collaboration and cooperation between
-                  staff, students, parents and the wider community is very
-                  important to us.
-                </p>
-                <p dir="ltr">
-                  Growing up is not easy, but we understand the challenges and
-                  changes that occur. We support our students with dedicated,
-                  caring professionals at every step of the way. This nurturing
-                  approach – coupled with 24/7 security and a strong{" "}
-                  <a
-                    href="https://media.eu.digistormhosting.com.au/bbis-de-be-729-website/documents/7600-Child-Protection-Policy-2021.pdf?v=1658490152"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    child-protection policy
-                  </a>{" "}
-                  – makes BBIS a safe and supportive environment for your child.
-                </p>
+            <p>
+            To ensure the safety of the whole student population and the staff, a state of the
+art Closed Circuit Television Camera system is also installed. Manned security
+entrance-exit system is also operated to enhance the safety aspect. 60% of the
+student population uses schools owned and maintained Transport system that
+consists of 35 brand new buses that cover the whole of the city. Almost 90% of
+the staff, also, commutes via this transport system. The KG students are provided
+with Bus assistants in every trip that they have, to ensure their safety, to and
+from the schools.
+            </p>
+            <p>
+            The School building is a purpose built facility and has been designed to make
+sure that the environment provides the safest and easiest day to day running.
+
+            </p>
+            <p>
+            We welcome any suggestions, feedback and questions from you. Your opinions
+are of the highest value to us. Together, we shall make Mariya International
+Schools, one of the Best schools in our region.
+            </p>
               </div>
             </div>
           </div>

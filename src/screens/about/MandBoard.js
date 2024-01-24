@@ -8,7 +8,7 @@ function MandBoard() {
     <>
       <Header />
       <SectionBanner
-        imglink="https://images-eu.digistormhosting.com.au/eyJidWNrZXQiOiJkaWdpc3Rvcm0td2Vic2l0ZXMtZXUiLCJrZXkiOiJiYmlzLWRlLWJlLTcyOS13ZWJzaXRlXC9jb250ZW50XC9CQklTLWltYWdlc1wvQkJJUy1QcmltYXJ5LVNjaG9vbFwvQkJJU19QcmltYXJ5X1NjaG9vbF8yMDguanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJjZW50ZXIiLCJ3aWR0aCI6MjQwMCwiaGVpZ2h0IjpudWxsfSwicXVhbGl0eSI6ODJ9fQ=="
+        imglink="https://mariyaschools.com/wp-content/uploads/2023/09/C1_03680-scaled.jpg"
         link1="About Us"
         link2="Management & Board"
       />
@@ -20,7 +20,7 @@ function MandBoard() {
               <div class="content has-text-centered">
                 <h1>MANAGEMENT & BOARD</h1>
                 <p class="text-body">
-                  The leadership team at BBIS is committed to upholding the
+                  The leadership team at MIS is committed to upholding the
                   school’s values – we strive to be pioneering, caring,
                   reflective and excellent.
                 </p>
@@ -70,7 +70,7 @@ function MandBoard() {
                     <div class="item-content">
                       <div class="text-box">
                         <p dir="ltr">
-                          Mark Hardeman joined the BBIS community as Director in
+                          Mark Hardeman joined the MIS community as Director in
                           August 2023. With over 20 years of experience in
                           international education, Mark has previously worked in
                           Kuwait, Abu Dhabi and Beijing, and Dar es Salaam. He
@@ -84,14 +84,7 @@ function MandBoard() {
                           Australia and Bachelor of Arts and Education degrees
                           from the University of Windsor, Canada.
                         </p>
-                        <figure style={{ maxWidth: "180px" }}>
-                          <img
-                            src="../../media.eu.digistormhosting.com.au/bbis-de-be-729-website/content/BBIS-images/BBIS-Team/Mark-Hardeman19af.png?v=1690199121"
-                            width="180"
-                            height="180"
-                            alt=""
-                          />
-                        </figure>
+                   
                       </div>
                     </div>
                   </div>
@@ -102,30 +95,7 @@ function MandBoard() {
         </div>
       </section>
 
-      <section class="btns-wrap">
-        <div class="container fadeInUp">
-          <div class="columns is-centered">
-            <div class="column is-8-desktop is-10-tablet is-12-mobile">
-              <div class="button-group  is-center">
-                <a
-                  href="https://media.eu.digistormhosting.com.au/bbis-de-be-729-website/documents/BBIS-Organizational-Chart-2023-24.pdf?v=1682321886"
-                  target="_blank"
-                  class="button"
-                >
-                  <span>BBIS Structure</span>
-                </a>
-                <a
-                  href="https://media.eu.digistormhosting.com.au/bbis-de-be-729-website/documents/BBIS_Strategic_Learning_Plan_2023.pdf?v=1693897871"
-                  target="_blank"
-                  class="button"
-                >
-                  <span>Strategic Learning Plan</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+ 
 
       <section class="table-wrap">
         <div class="container fadeInUp">

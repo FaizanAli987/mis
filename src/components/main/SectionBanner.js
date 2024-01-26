@@ -37,6 +37,11 @@ function SectionBanner(props) {
                         <a tabIndex="0">{props.link2}</a>
                       </li>
                     )}
+                    {props.link3 && (
+                      <li className="is-active">
+                        <a tabIndex="0">{props.link3}</a>
+                      </li>
+                    )}
                   </ul>
                 </div>
               </div>

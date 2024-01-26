@@ -3,6 +3,7 @@ import logo from "../logo.svg";
 import Header from "../components/main/Header";
 import Footer from "../components/main/Footer";
 import axios from "axios";
+import { Link } from "react-router-dom/cjs/react-router-dom";
 
 function Home() {
   const [dailyVisitors, setDailyVisitors] = useState(0);
@@ -88,7 +89,7 @@ function Home() {
           </div>
           <div className="right-box">
             <div className="item-c">
-              <a href="" target="">
+              <Link to="">
                 {" "}
                 <div className="inner">
                   {/* <div className="img">
@@ -100,10 +101,10 @@ function Home() {
                   <p className="num">{dailyVisitors}</p>
                   <p>Daily Visitors</p>
                 </div>
-              </a>{" "}
+              </Link>
             </div>
             <div className="item-c">
-              <a href="" target="">
+              <Link to="">
                 {" "}
                 <div className="inner">
                   {/* <div className="img">
@@ -115,10 +116,10 @@ function Home() {
                   <p className="num">{monthlyVisitors}</p>
                   <p>Monthly Visitors</p>
                 </div>
-              </a>{" "}
+              </Link>{" "}
             </div>
             <div className="item-c">
-              <a href="" target="">
+              <Link to="">
                 {" "}
                 <div className="inner">
                   {/* <div className="img">
@@ -130,7 +131,7 @@ function Home() {
                   <p className="num">{yearlyVisitors}</p>
                   <p>Yearly Visitors</p>
                 </div>
-              </a>{" "}
+              </Link>{" "}
             </div>
           </div>
         </div>
@@ -149,7 +150,7 @@ function Home() {
             </div>
             <div className="group ">
               <div className="item-c">
-                <a href="#" target="">
+                <Link to="/our-schools/primary-school">
                   <div className="img-c">
                     <div
                       className="zoomOut"
@@ -162,10 +163,10 @@ function Home() {
                   <div className="text-c">
                     <h3>Primary</h3>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="item-c slider-wrapper ">
-                <a href="#" target="">
+                <Link to="/our-schools/secondary-school">
                   <div className="img-c">
                     <div
                       className="zoomOut"
@@ -178,7 +179,7 @@ function Home() {
                   <div className="text-c">
                     <h3>SECONDARY</h3>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -270,36 +271,36 @@ function Home() {
 
                 <ul className="affiliation-ul">
                   <li class="">
-                    <a
+                    <Link
                       style={{
                         backgroundImage: `url(https://mariyaschools.com/wp-content/uploads/2023/03/cambridge-logo.jpg`,
                         backgroundPosition: "50% 50%",
                       }}
-                    ></a>
+                    ></Link>
                   </li>
                   <li class="">
-                    <a
+                    <Link
                       style={{
                         backgroundImage: `url(https://mariyaschools.com/wp-content/uploads/2023/03/British-council-partner-school-logo.jpg)`,
                         backgroundPosition: "50% 50%",
                       }}
-                    ></a>
+                    ></Link>
                   </li>
                   <li class="">
-                    <a
+                    <Link
                       style={{
                         backgroundImage: `url(https://mariyaschools.com/wp-content/uploads/2023/03/ISO-logo.png)`,
                         backgroundPosition: "50% 50%",
                       }}
-                    ></a>
+                    ></Link>
                   </li>
                   <li class="">
-                    <a
+                    <Link
                       style={{
                         backgroundImage: `url(https://mariyaschools.com/wp-content/uploads/2020/02/1280px-MOELogo.svg_-300x153.png)`,
                         backgroundPosition: "50% 50%",
                       }}
-                    ></a>
+                    ></Link>
                   </li>
                 </ul>
               </div>
@@ -320,7 +321,7 @@ function Home() {
                 <div className="group news-wrapper">
                   <div className="item-c item1">
                     <div className="img-c">
-                      <a href="#">
+                      <Link to="#">
                         <div
                           className="zoomOut"
                           style={{
@@ -328,26 +329,26 @@ function Home() {
                             backgroundPosition: "50% 50%",
                           }}
                         ></div>
-                      </a>
+                      </Link>
                     </div>
                     <div className="text-c">
-                      <a href="#">
+                      <Link to="#">
                         <div className="outer">
                           <div className="tag">News</div>
                           <h3>Students of the month</h3>
                           <p className="date">15 Dec 2023</p>
                         </div>
-                      </a>
+                      </Link>
                       <p>
-                        <a href="#" className="readmore">
+                        <Link to="/news-events" className="readmore">
                           Read more
-                        </a>
+                        </Link>
                       </p>
                     </div>
                   </div>
                   <div className="item-c item2">
                     <div className="img-c">
-                      <a href="#">
+                      <Link to="#">
                         <div
                           className="zoomOut"
                           style={{
@@ -355,35 +356,35 @@ function Home() {
                             backgroundPosition: "50.17% 11.83%",
                           }}
                         ></div>
-                      </a>
+                      </Link>
                     </div>
                     <div className="text-c">
-                      <a href="#">
+                      <Link to="#">
                         <div className="outer">
                           <div className="tag">News</div>
                           <h3>Saudi National Day</h3>
                           <p className="date">29 Nov 2023</p>
                         </div>
-                      </a>
+                      </Link>
                       <p>
-                        <a href="#" className="readmore">
+                        <Link to="/news-events" className="readmore">
                           Read more
-                        </a>
+                        </Link>
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="show-all-link">
-                <a href="#" className="button">
+                <Link to="#" className="button">
                   Show More
-                </a>
+                </Link>
               </div>
               <div className="column is-6-desktop is-6-tablet is-12-mobile">
                 <div className="group events-wrapper">
                   <div className="item-c item1">
                     <div className="img-c">
-                      <a href="#">
+                      <Link to="#">
                         <div
                           className="zoomOut"
                           style={{
@@ -391,29 +392,26 @@ function Home() {
                             backgroundPosition: "50% 50%",
                           }}
                         ></div>
-                      </a>
+                      </Link>
                     </div>
                     <div className="text-c">
-                      <a href="#">
+                      <Link to="#">
                         <div className="outer">
                           <div className="tag">Event</div>
                           <h3>Bank of Prizes</h3>
                           <p className="date">23 Jan 2024</p>
                         </div>
-                      </a>
+                      </Link>
                       <p>
-                        <a
-                          href="#"
-                          className="readmore"
-                        >
+                        <Link to="/news-events" className="readmore">
                           Read more
-                        </a>
+                        </Link>
                       </p>
                     </div>
                   </div>
                   <div className="item-c item2">
                     <div className="img-c">
-                      <a href="#">
+                      <Link to="#">
                         <div
                           className="zoomOut"
                           style={{
@@ -421,23 +419,20 @@ function Home() {
                             backgroundPosition: "50% 50%",
                           }}
                         ></div>
-                      </a>
+                      </Link>
                     </div>
                     <div className="text-c">
-                      <a href="#">
+                      <Link to="#">
                         <div className="outer">
                           <div className="tag">Event</div>
                           <h3>Student of The Month</h3>
                           <p className="date">23 Jan 2024</p>
                         </div>
-                      </a>
+                      </Link>
                       <p>
-                        <a
-                          href="#"
-                          className="readmore"
-                        >
+                        <Link to="/news-events" className="readmore">
                           Read more
-                        </a>
+                        </Link>
                       </p>
                     </div>
                   </div>
@@ -446,9 +441,9 @@ function Home() {
             </div>
 
             <div className="has-text-centered">
-              <a href="#" className="readmore">
+              <Link to="/news-events" className="readmore">
                 View All
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -463,19 +458,19 @@ function Home() {
             </p>
             <ul>
               <li className="active">
-                <a href="javascript:void(0);">
+                <Link to="javascript:void(0);">
                   <i className="icon-tel"></i>ENQUIRE
-                </a>
+                </Link>
               </li>
               <li className="">
-                <a href="javascript:void(0);">
+                <Link to="javascript:void(0);">
                   <i className="icon-location"></i>VISIT
-                </a>
+                </Link>
               </li>
               <li className="">
-                <a href="javascript:void(0);">
+                <Link to="javascript:void(0);">
                   <i className="icon-enrol bbis"></i>ENROL
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -493,9 +488,9 @@ function Home() {
               <div className="text2 darkbg">
                 <p>Speak to our Admissions Team. Call us now.</p>
                 <p>
-                  <a href="tel:+966567334791" target="">
+                  <Link to="tel:+966567334791">
                     <strong>+966567334791</strong>
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -515,9 +510,9 @@ function Home() {
                   southwest of Berlin.
                 </p>
                 <p>
-                  <a href="#" target="_blank">
+                  <Link to="#" target="_blank">
                     <strong>SCHEDULE A VISIT WITH OUR ADMISSIONS TEAM</strong>
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -533,9 +528,9 @@ function Home() {
               <div className="text2 darkbg">
                 <p>Start your application.</p>
                 <p>
-                  <a href="#" target="_blank">
+                  <Link to="#" target="_blank">
                     <strong>ENROL NOW</strong>
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>

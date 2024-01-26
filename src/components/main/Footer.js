@@ -10,15 +10,14 @@ function Footer() {
             <div id="back" title="Back to Top">
               <i className="icon-arrow"></i>
             </div>
-            <a href="https://ibo.org/" target="_blank" className="brand">
-              <span style={{ backgroundImage: "url(/logo.svg)" }}></span>
+            <a href="" target="_blank" className="brand">
+              <span style={{ backgroundImage: "url(https://dnyansadhana.net.in/wp-content/uploads/vismis.png)", backgroundSize:"contain" }}></span>
             </a>
 
             <div className="text1">
               <p>MIS Mariya International Schools</p>
             </div>
             <div className="text2">
-             
               <div className="info">
                 <p>
                   <Link to="#">
@@ -80,6 +79,34 @@ function Footer() {
           </p>
         </div>
       </div>
+      <aside class="slider-bar" id="slider-bar">
+        <ul>
+          <li>
+            <Link to="contact-us">
+              <i>
+                <img src="https://media.eu.digistormhosting.com.au/bbis-de-be-729-website/content/BBIS-icons/BBIS_icon_call.svg?v=1609977369" />
+              </i>
+              <span>Contact the school</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="">
+              <i>
+                <img src="https://media.eu.digistormhosting.com.au/bbis-de-be-729-website/content/images/download_brochure2.svg?v=1697095337" />
+              </i>
+              <span>Download school brochure</span>
+            </Link>
+          </li>
+          <li>
+            <Link to="">
+              <i>
+                <img src="https://media.eu.digistormhosting.com.au/bbis-de-be-729-website/content/BBIS-icons/BBIS_icon_map.svg?v=1609977369" />
+              </i>
+              <span>Arrange a visit</span>
+            </Link>
+          </li>
+        </ul>
+      </aside>
     </footer>
   );
 }

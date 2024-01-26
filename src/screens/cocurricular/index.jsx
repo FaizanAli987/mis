@@ -9,7 +9,7 @@ const index = () => {
     <Header />
     <SectionBanner
       imglink="https://mariyaschools.com/wp-content/uploads/2023/09/C1_03584-scaled.jpg"
-      link1="SCHOOL CURRICULUM"
+      link1="CO-CURRICURAL"
       link2=""
     />
 
@@ -18,11 +18,11 @@ const index = () => {
         <div class="columns is-centered">
           <div class="column is-10-desktop is-10-tablet is-12-mobile">
             <div class="content has-text-centered">
-              <h1>School curriculum
+              <h1>STUDENT ACTION
+
 </h1>
               <p class="text-body">
-              Mariya International School
-
+              A diverse range of activities and opportunities to help students find their passions.
               </p>
             </div>
           </div>

@@ -1,39 +1,34 @@
-import React from 'react'
-import Header from './../../components/main/Header';
-import Footer from './../../components/main/Footer';
-import SectionBanner from '../../components/main/SectionBanner';
+import React from "react";
+import Header from "./../../components/main/Header";
+import Footer from "./../../components/main/Footer";
+import SectionBanner from "../../components/main/SectionBanner";
 
 const index = () => {
   return (
     <>
-    <Header />
-    <SectionBanner
-      imglink="https://mariyaschools.com/wp-content/uploads/2020/03/2-4-scaled.jpg"
-      link1="News & Events"
-      link2=""
-    />
+      <Header />
+      <SectionBanner
+        imglink="https://mariyaschools.com/wp-content/uploads/2023/09/IMG_7062-scaled.jpg"
+        link1="News & Events"
+        link2=""
+      />
 
-    <section class="guide-wrap">
-      <div class="container fadeInUp">
-        <div class="columns is-centered">
-          <div class="column is-10-desktop is-10-tablet is-12-mobile">
-            <div class="content has-text-centered">
-              <h1>NEWS & EVENTS
-</h1>
-              <p class="text-body">
-           Latest at MIS
-              </p>
+      <section class="guide-wrap">
+        <div class="container fadeInUp">
+          <div class="columns is-centered">
+            <div class="column is-10-desktop is-10-tablet is-12-mobile">
+              <div class="content has-text-centered">
+                <h1>NEWS & EVENTS</h1>
+                <p class="text-body">Latest at MIS</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
- 
-    <section className="news-events-wrap" style={{background:"#fff"}}>
+      <section className="news-events-wrap" style={{ background: "#fff" }}>
         <div className="container fadeInUp">
           <div className="content">
-         
             <div className="columns is-variable is-2">
               <div className="column is-6-desktop is-6-tablet is-12-mobile">
                 <div className="group news-wrapper">
@@ -121,10 +116,7 @@ const index = () => {
                         </div>
                       </a>
                       <p>
-                        <a
-                          href="#"
-                          className="readmore"
-                        >
+                        <a href="#" className="readmore">
                           Read more
                         </a>
                       </p>
@@ -151,10 +143,7 @@ const index = () => {
                         </div>
                       </a>
                       <p>
-                        <a
-                          href="#"
-                          className="readmore"
-                        >
+                        <a href="#" className="readmore">
                           Read more
                         </a>
                       </p>
@@ -163,16 +152,13 @@ const index = () => {
                 </div>
               </div>
             </div>
-
-         
           </div>
         </div>
       </section>
 
+      <Footer />
+    </>
+  );
+};
 
-    <Footer />
-  </>
-  )
-}
-
-export default index
+export default index;

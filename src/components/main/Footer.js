@@ -98,7 +98,7 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <Link to="">
+            <Link to="/contact-us">
               <i>
                 <img src="https://media.eu.digistormhosting.com.au/bbis-de-be-729-website/content/BBIS-icons/BBIS_icon_map.svg?v=1609977369" />
               </i>

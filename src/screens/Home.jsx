@@ -321,7 +321,7 @@ function Home() {
                 <div className="group news-wrapper">
                   <div className="item-c item1">
                     <div className="img-c">
-                      <Link to="#">
+                      <Link to="/news-event">
                         <div
                           className="zoomOut"
                           style={{
@@ -332,7 +332,7 @@ function Home() {
                       </Link>
                     </div>
                     <div className="text-c">
-                      <Link to="#">
+                      <Link to="/news-events">
                         <div className="outer">
                           <div className="tag">News</div>
                           <h3>Students of the month</h3>
@@ -348,7 +348,7 @@ function Home() {
                   </div>
                   <div className="item-c item2">
                     <div className="img-c">
-                      <Link to="#">
+                      <Link to="/news-events">
                         <div
                           className="zoomOut"
                           style={{
@@ -359,7 +359,7 @@ function Home() {
                       </Link>
                     </div>
                     <div className="text-c">
-                      <Link to="#">
+                      <Link to="/news-events">
                         <div className="outer">
                           <div className="tag">News</div>
                           <h3>Saudi National Day</h3>
@@ -376,7 +376,7 @@ function Home() {
                 </div>
               </div>
               <div className="show-all-link">
-                <Link to="#" className="button">
+                <Link to="/news-events" className="button">
                   Show More
                 </Link>
               </div>
@@ -384,7 +384,7 @@ function Home() {
                 <div className="group events-wrapper">
                   <div className="item-c item1">
                     <div className="img-c">
-                      <Link to="#">
+                      <Link to="/news-events">
                         <div
                           className="zoomOut"
                           style={{
@@ -395,7 +395,7 @@ function Home() {
                       </Link>
                     </div>
                     <div className="text-c">
-                      <Link to="#">
+                      <Link to="/news-events">
                         <div className="outer">
                           <div className="tag">Event</div>
                           <h3>Bank of Prizes</h3>
@@ -411,7 +411,7 @@ function Home() {
                   </div>
                   <div className="item-c item2">
                     <div className="img-c">
-                      <Link to="#">
+                      <Link to="/news-events">
                         <div
                           className="zoomOut"
                           style={{
@@ -422,7 +422,7 @@ function Home() {
                       </Link>
                     </div>
                     <div className="text-c">
-                      <Link to="#">
+                      <Link to="/news-events">
                         <div className="outer">
                           <div className="tag">Event</div>
                           <h3>Student of The Month</h3>
@@ -510,7 +510,7 @@ function Home() {
                   southwest of Berlin.
                 </p>
                 <p>
-                  <Link to="#" target="_blank">
+                  <Link to="/contact-us" target="_blank">
                     <strong>SCHEDULE A VISIT WITH OUR ADMISSIONS TEAM</strong>
                   </Link>
                 </p>
@@ -528,7 +528,7 @@ function Home() {
               <div className="text2 darkbg">
                 <p>Start your application.</p>
                 <p>
-                  <Link to="#" target="_blank">
+                  <Link to="/student-enrollment" target="_blank">
                     <strong>ENROL NOW</strong>
                   </Link>
                 </p>

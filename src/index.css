@@ -1,4 +1,6 @@
-
+.text-left{
+  text-align: left !important; 
+}
 .w-100{
     width: 100%;
 }
@@ -165,6 +167,297 @@ padding: 40px 30px;
     display: block;
     margin-left: auto;
 }
+
+.authpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('https://mariyaschools.com/wp-content/uploads/2023/09/IMG_6923-scaled.jpg') center/cover;
+  backdrop-filter: blur(10px); /* Add the blur effect */
+}
+.authpage::before{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #433e3e57;
+}
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container h2{
+  text-align: center;
+  color: #333333;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.login-container {
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(255 255 255 / 90%); /* Add some transparency to the login container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.login-container .logo {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+}
+
+
+.form-auth {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin: 10px 0;
+  color: #555555;
+  font-size: 14px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-button {
+  background-color: maroon;
+  color: #ffffff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: rgba(128, 0, 0, 0.561);
+}
+
+
+.forgot-password {
+  background: none;
+  border: none;
+  color: #484751;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.language-dropdown {
+  margin-bottom: 10px;
+}
+
+.language-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+/* Add the following styles to your existing CSS file */
+.enrollment-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  gap: 15px;
+}
+.enrollment-nav h2{
+  font-size: 20px;
+  font-weight: 500;
+  color: maroon;
+}
+.enrollment-nav img{
+  max-width: 120px;
+}
+.enrollment-flex{
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  width: 100%;
+  margin: 30px auto;
+}
+.enrollment-side{
+  width: 25%;
+  border-left: 1px solid rgb(220, 217, 217);
+  padding: 0 16px;
+}
+.enrollment-side h2{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.enrollment-side p{
+  font-size: 14px;
+}
+.enrollment-container {
+  width: 75%;
+}
+.enrollment-container img{
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+.enrollment-container h1{
+  font-size: 24px;
+  color: #333333;
+  font-weight: 500;
+  text-align: center;
+  margin: 10px 0;
+}
+.enrollment-container h2 {
+  text-align: center;
+  color: #333333;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.enrollment-container button {
+  background-color: #364a8e;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+margin: 10px auto;
+display: block;
+}
+
+.enrollment-container button:hover {
+  background-color: #374b8cd9;
+}
+
+.enrollment-container input,
+.enrollment-container select,
+.enrollment-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+  max-width: 600px;
+}
+.enrollment-container p{
+  font-size: 13px;
+  line-height: 22px;
+}
+.enrollment-container label {
+  margin: 10px 0;
+  color: #555555;
+  font-size: 14px;
+  margin-right:auto ;
+}
+
+/* Styles for textarea */
+.enrollment-container textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Styles for radio buttons */
+.radio-group {
+  margin-top: 10px;
+  margin-right: auto;
+}
+
+.radio-group label {
+  margin-right: 10px;
+}
+
+.radio-group input[type="radio"] {
+  display: none;
+}
+
+.radio-group label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 20px;
+  margin-top: 5px;
+  max-width: 600px;
+}
+
+.radio-group label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #1f201f;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+.enrollment-container input[type="file"] {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Styling for file input */
+.enrollment-container label[for="studentPhoto"] {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  background-color: #1f201f;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: auto !important;
+}
+
+.enrollment-container label[for="studentPhoto"]:hover {
+  background-color: #1f201fd3;
+}
+
+/* Hide the default file input appearance */
+.enrollment-container input[type="file"] {
+  display: none;
+}
+
+.radio-group input[type="radio"]:checked + label:before {
+  background-color: #1f201f;
+}
+.next-p-btn{
+  display: flex;
+  margin: 10px 0;
+  justify-content: end;
+  gap: 10px;
+  margin-left: auto;
+}
+.next-p-btn button{
+  margin: 0;
+}
+/* Add more styles based on your specific requirements */
+
 @media (max-width: 991px){
 .showcase {
     padding: 40px;

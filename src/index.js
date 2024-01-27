@@ -35,9 +35,10 @@ import Libraries from "./screens/studentsupport/Libraries";
 import CareerCounsling from "./screens/studentsupport/CareerCounsling";
 import EarlyEducation from "./screens/ourschools/Primaryschool/EarlyEducation";
 import MiddleYears from "./screens/ourschools/Secondaryschool/MiddleYears";
-import MisLogin from "./screens/Auth/MisLogin"
-import InnovBase from "./screens/Auth/InnoveBase"
+import MisLogin from "./screens/Auth/MisLogin";
+import InnovBase from "./screens/Auth/InnoveBase";
 import Contact from "./screens/Contact";
+import Enroll from "./screens/Enroll";
 const rootElement = document.getElementById("root");
 
 render(
@@ -47,16 +48,19 @@ render(
         <Home />
       </Route>
       <Route exact path="/mis-login">
-        < MisLogin/>
+        <MisLogin />
       </Route>
       <Route exact path="/innovebase-login">
         <InnovBase />
       </Route>
-  
+      <Route exact path="/student-enrollment">
+        <Enroll />
+      </Route>
+
       <Route exact path="/contact-us">
         <Contact />
       </Route>
-  
+
       <Route exact path="/about-us">
         <About />
       </Route>

@@ -9,11 +9,18 @@ function Header() {
           <div className="content">
             <ul>
               <li>
-                <Link to="#">Careers</Link>
+                <Link to="/mis-login" target="_blank">
+                  Mis Login
+                </Link>
+              </li>
+              <li>
+                <Link to="/innovebase-login" target="_blank">
+                  InnovBase Login
+                </Link>
               </li>
 
               <li>
-                <Link to="#" target="_blank">
+                <Link to="/student-enrollment" target="_blank">
                   Enrol Online
                 </Link>
               </li>
@@ -186,13 +193,17 @@ function Header() {
                 <div className="top">
                   <ul>
                     <li>
-                      <Link to="#" target="">
-                        Careers
+                      <Link to="/mis-login" target="_blank">
+                        Mis Login
                       </Link>
                     </li>
-
                     <li>
-                      <Link to="#" target="_blank">
+                      <Link to="/innovebase-login" target="_blank">
+                        InnovBase Login
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/student-enrollment" target="_blank">
                         Enroll Online
                       </Link>
                     </li>

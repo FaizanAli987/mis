@@ -462,4 +462,14 @@ display: block;
 .showcase {
     padding: 40px;
 }
+
+}
+@media (max-width: 576px){
+  .text h2 {
+    font-size: 2em;
+}
+.text h3{
+  font-size: 1.5em;
+}
+
 }

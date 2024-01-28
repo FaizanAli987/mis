@@ -468,6 +468,9 @@ display: block;
   .text h2 {
     font-size: 2em;
 }
+  .showcase {
+    min-height: 250px;
+}
 .text h3{
   font-size: 1.5em;
 }
